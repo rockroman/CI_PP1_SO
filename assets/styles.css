@@ -13,6 +13,39 @@ body{
    
 
 }
+/* making a sliding navigation(original idea by'Angela Delise' */
+.nav{
+    border-bottom: 2px solid darkslategray;
+
+}
+.nav-toggle{
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right:0;
+}
+#bars ,#close{
+    width: 1.5rem;
+}
+#close{
+    display: none;
+}
+#bars{
+    margin-top: .2rem;
+}
+.nav-checkbox{
+    display: none;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+}
+li{
+    list-style: none;
+}
 /* setting a hero img to cover entire hero section */
 #hero{
     background-image: url(images/surfer00.jpg);
