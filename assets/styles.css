@@ -25,3 +25,37 @@ body{
     height: 85vh;
 
 }
+/* making a H1 text sending a invitation to a user with size ,font family and left alingment */
+h1{
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    color: white;
+}
+/* bottom hero section is flex container it makes easier aligning button with call to action */
+.hero-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    align-items: flex-end;
+
+}
+/* styling a call-to-action button */
+ #free-lesson{
+    width: 100%;
+    padding: 2% 0% 1% 5% ;
+    height: 20%;
+    border-radius: 2rem;
+    border: 2px solid black;
+    box-shadow: 2px 1px 3px rgb(18, 18, 165);
+    background-color: rgb(23, 23, 23);
+    color: white;
+    font-size: .8rem;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    border: outset;
+    margin-bottom: -8%;
+    margin-right: 2%;
+    
+    
+}
