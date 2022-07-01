@@ -13,22 +13,39 @@ body{
    
 
 }
+/* putting logo of company in top left corner(logo made with "looka.com" */
+#logo{
+    height:9vh;
+    width: 25vw;
+    border-radius: 50%;
+    margin: auto;   
+}
 /* making a sliding navigation(original idea by'Angela Delise' */
 .nav{
-    border-bottom: 2px solid darkslategray;
-
+    border-bottom: 2px solid rgb(17, 19, 19);
+    position: absolute;
+    width: 100%;
+    background-color: beige;
+    
+   
+   
 }
+
+
 .nav-toggle{
     position: absolute;
     cursor: pointer;
-    margin: 0rem 1rem;
-    right:0;
+    margin: 2rem 1rem 1.5rem 0;
+    left: 0;
 }
 #bars ,#close{
     width: 1.5rem;
+    font-size: 1.6rem;
 }
 #close{
     display: none;
+   
+    
 }
 #bars{
     margin-top: .2rem;
@@ -41,11 +58,40 @@ body{
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    margin: 1rem;
+    /* margin: 1rem; */
+    margin-top: 60px;
+    position: absolute;
+    left: -100vw;
+    box-sizing: border-box;
+    transition: left 0.5s ease-in-out;
+    padding-left: 0px;
+    
 }
-li{
+.nav-menu li{
     list-style: none;
 }
+
+ul a{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+#nav-checkbox:checked ~ .nav-menu{
+    left:-1%;
+    background-color: blanchedalmond;
+    height: 70vh;
+    width: 100%;
+    z-index: 15;
+   
+}
+#nav-checkbox:checked ~ label.nav-toggle #close{
+    display: block;
+    z-index: 1000;
+   
+}
+#nav-checkbox:checked ~ label.nav-toggle #bars{
+    display: none;
+}
+
 /* setting a hero img to cover entire hero section */
 #hero{
     background-image: url(images/surfer00.jpg);
