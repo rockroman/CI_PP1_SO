@@ -119,11 +119,10 @@ h1{
 
 }
 /* styling a call-to-action button */
- #free-lesson{
+ #start-now{
     width: 100%;
-    padding: 2% 0% 1% 5% ;
+    padding: 2% 5% 1% 5% ;
     height: 20%;
-    border-radius: 2rem;
     border: 2px solid black;
     box-shadow: 2px 1px 3px rgb(18, 18, 165);
     background-color: rgb(5, 102, 57);
@@ -137,6 +136,11 @@ h1{
     margin-right: 2%;
     
     
+}
+/*text inside link styled as button aligned to centre   */
+#start-now > p{
+    width: 100%;
+    text-align: center;
 }
 
 /* welcome section shows user a brief info what SURFon is about */
@@ -319,4 +323,24 @@ hr{
     margin: 0;
     font-weight: 700;
 }
+
+/* about section */
+#about-us{
+
+}
+/*  */
+.about-hero > h2{
+    text-align: center;
+    width: 100%;
+    padding-top: 12%;
+    color: var(--clr-hero-txt);
+
+}
+/*  */
+.about-hero{
+    background-image: url(images/surf-club-about-us.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+
 
