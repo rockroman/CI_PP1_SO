@@ -1,15 +1,22 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Piazzolla:opsz@8..30&display=swap');
+
 /* setting a color palette for project with creating css variables */
 :root{
     --clr-sect:rgb(91, 91, 194);
     --clr-hero-txt:white;
     --clr-hero2-txt:rgb(11, 11, 37);
     --clr-header-nav-footer: rgb(10, 10, 10);
+    --clr-section-blue: rgb(22, 99, 163);
 }
 /* creating a litlle space for content not to be 100% width of a screen,with setting small padding for whole body element and removing margin */
 body{
     padding: .6%;
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Piazzolla', serif; */
+    
    
 
 }
@@ -109,6 +116,7 @@ h1{
     margin-bottom: 0;
     font-size: 1.7rem;
     color: white;
+    width: 65%;
 }
 /* bottom hero section is flex container it makes easier aligning button with call to action */
 .hero-bottom{
@@ -120,9 +128,8 @@ h1{
 }
 /* styling a call-to-action button */
  #start-now{
-    width: 100%;
-    padding: 2% 5% 1% 5% ;
-    height: 20%;
+   
+    padding: 2% 2% 1% 5% ;
     border: 2px solid black;
     box-shadow: 2px 1px 3px rgb(18, 18, 165);
     background-color: rgb(5, 102, 57);
@@ -134,6 +141,11 @@ h1{
     border: outset;
     margin-bottom: -8%;
     margin-right: 2%;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    right: 2%;
+    bottom: 19%;
     
     
 }
@@ -195,13 +207,15 @@ em{
 /* styling horizontal reference to clearly separate sections */
 hr{
     height: 1px;
-    border: .5px solid black;
-    margin-top: 7%;
-    background-color: var(--clr-header-nav-footer);
+    background-color: rgb(207, 18, 18);
+    border: 1.5px solid rgb(0, 0, 0);
+    
+    width: 90%;
+    margin:5% auto;
 }
 /* our services section is giving insigt to user what SURF-ON is offering */
 #services{
-    padding-top: 1%;
+    padding: 2% 1%;
     /* background-color: var(--clr-header-nav-footer); */
     margin: 0;
     background-color: rgb(22, 99, 163);    
@@ -307,6 +321,7 @@ hr{
 #rental > p{
     font-size: 1.25rem;
     margin-bottom: 0;
+    padding: 2%;
     
 }
 /*  */
@@ -323,16 +338,25 @@ hr{
     margin: 0;
     font-weight: 700;
 }
+/*  */
+hr{
+    height: 1px;
+    background-color: rgb(207, 18, 18);
+    border: 1.5px solid rgb(0, 0, 0);
+    margin-top: 7%;
+
+}
 
 /* about section */
 #about-us{
+    padding: 1%;
 
 }
 /*  */
 .about-hero > h2{
     text-align: center;
     width: 100%;
-    padding-top: 12%;
+    padding-top: 8%;
     color: var(--clr-hero-txt);
 
 }
@@ -341,6 +365,34 @@ hr{
     background-image: url(images/surf-club-about-us.jpg);
     background-size: cover;
     height: 50vh;
+}
+/*  */
+#our-story{
+    background-color:var(--clr-section-blue) ;
+}
+/*  */
+h4{
+    font-size:1.5rem ;
+    color: var(--clr-hero-txt);
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 8%;
+}
+/*  */
+.text-story{
+    margin-top: .5%;
+    border:1px solid var(--clr-hero2-txt) ;
+    box-shadow:1px 1px 1px 0px rgb(46, 43, 43) 
+}
+/*  */
+.text-story > p{
+    font-size: 1.2rem;
+    padding: 2%;
+}
+/*  */
+#video{
+    border: 1px solid black;
+    margin-top: .5%;
 }
 
 
