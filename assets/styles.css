@@ -394,5 +394,26 @@ h4{
     border: 1px solid black;
     margin-top: .5%;
 }
+/*  */
+h3{
+    text-align: center;
+}
+/*  */
+#start-now2{
+    padding: 2% 2% 1% 5% ;
+    border: 2px solid black;
+    box-shadow: 2px 1px 3px rgb(18, 18, 165);
+    background-color: rgb(5, 102, 57);
+    color: white;
+    font-size: .8rem;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    border: outset;
+    margin-bottom: -8%;
+    margin-right: 2%;
+    width: 100px;
+    height: 25px;
+   
 
-
+}
