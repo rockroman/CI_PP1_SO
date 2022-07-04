@@ -21,7 +21,7 @@ body{
 
 }
 /* putting logo of company in top left corner(logo made with "looka.com" */
-#logo{
+#logo-nav{
     height:9vh;
     width: 25vw;
     border-radius: 50%;
@@ -42,8 +42,8 @@ body{
 .nav-toggle{
     position: absolute;
     cursor: pointer;
-    margin: 2rem 1rem 1.5rem 0;
-    left: 0;
+    margin: .2rem 1rem 1.5rem 0;
+    right: 0;
 }
 #bars ,#close{
     width: 1.5rem;
@@ -51,11 +51,13 @@ body{
 }
 #close{
     display: none;
+    
    
     
 }
 #bars{
     margin-top: .2rem;
+   
 }
 .nav-checkbox{
     display: none;
@@ -65,12 +67,11 @@ body{
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    /* margin: 1rem; */
-    margin-top: 60px;
+    margin-top: 30px;
     position: absolute;
     left: -100vw;
     box-sizing: border-box;
-    transition: left 0.5s ease-in-out;
+    transition: left 0.6s ease-out;
     padding-left: 0px;
     
 }
@@ -107,9 +108,16 @@ ul a{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content:space-between;
     height: 85vh;
 
+}
+/*  */
+#logo{
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
+    margin: 1% 0% 0% 5%;
 }
 /* making a H1 text sending a invitation to a user with size ,font family and left alingment */
 h1{
@@ -396,7 +404,7 @@ h3{
     text-align: center;
 }
 /*  */
-#start-now2{
+/* #start-now2{
     padding: 2% 2% 1% 5% ;
     border: 2px solid black;
     box-shadow: 2px 1px 3px rgb(18, 18, 165);
@@ -413,4 +421,99 @@ h3{
     height: 25px;
    
 
+} */
+.map{
+    width: 100vw;
+    height:40vh ;
+}
+
+/* creating a contact form */
+#split-form{
+    display: flex;
+    border: 1px solid rgb(30, 3, 65);
+    max-width: 450px;
+    margin-top: 5%;
+    
+    
+}
+#side-form{
+    height: 500px;
+    width: 40%;
+    background-image:url(../images/new.surfer.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+   
+    gap: 15%;
+    
+}
+
+.my-form{
+    box-sizing: border-box;
+    height: 500px;
+    border: 2px solid rgba(167, 163, 130, 0.708);
+    box-shadow: 4px 4px 15px rgb(157, 155, 152);
+    width: 60%;
+    /* margin:5% auto; */
+    display: flex;
+    flex-direction: column;
+    padding:2% 1% 4%;
+    /* background: url(/images/sign\ up-pexels.jpg) no-repeat ;
+    background-size: cover;
+     
+    background-blend-mode:saturation;
+   */
+    
+    
+}
+form >h1{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    color: blue;
+}
+#full-name,
+#phone,
+#email
+{
+    width: 75%;
+    box-shadow: 1px .8px 12px rgb(1, 1, 7);
+    height: 1.25rem;
+    padding: 2%;
+    border-radius: .3rem;
+    border:double 3px rgb(24, 24, 71);
+    margin: 0 auto;
+  
+}
+label{
+    color: rgb(14, 13, 13);
+    font-size: .8rem;
+    font-weight: 700;
+    padding-left: 13%;
+    margin-top: 1%;
+}
+textarea{
+    width: 74%;
+    margin-left: 13%;
+    font-size: 1rem;
+}
+#contact{
+    width: 120px;
+    height: 45px;
+    margin: auto 12%;
+    background-color:rgb(6, 114, 13);
+    padding: 3% 3%;
+    margin-top: 3%;
+    border: 1px groove inset rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: .8rem;
+
+}
+.adress,
+.call,
+.mail{
+    color: white;
+    margin-top: 20%;
 }
