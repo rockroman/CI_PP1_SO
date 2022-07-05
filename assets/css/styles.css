@@ -9,7 +9,7 @@
     --clr-header-nav-footer: rgb(10, 10, 10);
     --clr-section-blue: rgb(22, 99, 163);
 }
-/* creating a litlle space for content not to be 100% width of a screen,with setting small padding for whole body element and removing margin */
+
 body{
     padding: .6%;
     box-sizing: border-box;
@@ -119,7 +119,7 @@ ul a{
     box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
     margin: 1% 0% 0% 5%;
 }
-/* making a H1 text sending a invitation to a user with size ,font family and left alingment */
+
 h1{
     margin-bottom: 0;
     font-size: 1.7rem;
@@ -134,7 +134,7 @@ h1{
     align-items: flex-end;
 
 }
-/* styling a call-to-action button */
+
  #start-now{
    
     padding: 2% 2% 1% 5% ;
@@ -157,7 +157,7 @@ h1{
     
     
 }
-/*text inside link styled as button aligned to centre   */
+
 #start-now > p{
     width: 100%;
     text-align: center;
@@ -171,14 +171,14 @@ h1{
     
 
 }
-/* making h2 text blends with h1 into a nice inviting quote */
+
 h2{
     font-size: 1.7rem;
     width:85% ;
     margin-top: 0;
     vertical-align: bottom;
 }
-/* setting height to a welcome section img */
+
 #welcome-message > img{
     max-width: 900px;
     /* height:50vh ; */
@@ -188,13 +188,13 @@ h2{
     margin-bottom: 4%;
      
 }
-/* putting img and text into a container as a part of section then putting some space between */
+
 #welcome-message{
    
     display: flex;
     flex-direction: column;
 }
-/* wraped introduction text into a nicely styled container */
+
 
 #welcome-text{
     width:95%;
@@ -208,7 +208,7 @@ h2{
     margin: auto;
    
 }
-/* making company name more appealing with two color text style */
+
 em{
     color: red;
 }
@@ -229,7 +229,7 @@ hr{
     background-color: rgb(22, 99, 163);    
    
 }
-/* styling title of a section */
+
 #services > h3{
     font-size: 1.7rem;
     margin-top: 1%;
@@ -254,7 +254,7 @@ hr{
     margin-top: 2%;
 
 }
-/* styling a title of lessons card */
+
 #lessons > h2{
     width: 95%;
     font-size: 1.5rem;
@@ -262,20 +262,20 @@ hr{
     
    
 }
-/* making card img display above paragraph and centering it */
+
 #our-lessons{
     width:100%;
     /* height: 250px; */
     box-shadow: 0 1px 0 2px gray;
     
 }
-/* styling paragraph and lef aligning it */
+
 #lessons >p{
     font-size: 1.25rem;
     margin-bottom: 0;
     
 }
-/* "camps" card ,surfing camps SURF-ON is offering */
+
 #camps{
     border:1px solid var(--clr-hero2-txt) ;
     box-shadow:1px 1px 1px 2px rgb(46, 43, 43)  ;
@@ -283,7 +283,7 @@ hr{
     margin-top: 4%;
 
 }
-/* centering title for camps card */
+
 #camps > h2{
     width: 100%;
     font-size: 1.5rem;
@@ -291,19 +291,19 @@ hr{
     
    
 }
-/* centering img for camps card */
+
 #our-camps{
     width:100%;
     box-shadow: 0 1px 0 2px gray;
     
 }
-/* styling a paragraph for a camps text */
+
 #camps >p{
     font-size: 1.25rem;
     margin-bottom: 0;
    
 }
-/*  slight spacing from edges and top content */
+
 #rental{
     padding: 1%;
     margin-top: 7%;
@@ -398,6 +398,7 @@ h4{
 #video{
     border: 1px solid black;
     margin-top: .5%;
+    width: 100%;
 }
 /*  */
 h3{
@@ -425,6 +426,10 @@ h3{
 .map{
     width: 100vw;
     height:40vh ;
+}
+#map{
+    width: 100%;
+    height: 100%;
 }
 
 /* creating a contact form */
@@ -466,7 +471,7 @@ h3{
     
     
 }
-form >h1{
+.form{
     font-size: 1.2rem;
     text-align: center;
     width: 100%;
@@ -504,7 +509,7 @@ textarea{
     background-color:rgb(6, 114, 13);
     padding: 3% 3%;
     margin-top: 3%;
-    border: 1px groove inset rgb(0, 0, 0);
+    border: 1px solid  rgb(0, 0, 0);
     box-shadow: 1px 1px 2px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-weight: 700;
