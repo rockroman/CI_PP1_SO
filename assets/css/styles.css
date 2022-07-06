@@ -522,3 +522,31 @@ textarea{
     color: white;
     margin-top: 20%;
 }
+#our-team{
+    padding: 1%;
+}
+
+#our-team > h3{
+    color:blue;
+    text-decoration: underline;
+}
+.instructor-card{
+    
+    border: 1px red solid;
+    width: 100%;
+    max-width: 500px;
+}
+#instructor1{
+    width: 100%;
+    box-shadow: 0 1px 0 2px grey ;
+
+}
+.instructor-card > h4{
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+.instructor-card > p {
+    margin-top: 1%;
+}
+
