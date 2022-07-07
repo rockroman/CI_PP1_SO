@@ -77,18 +77,18 @@ body{
     box-sizing: border-box;
     transition: left 0.6s ease-out;
     padding-left: 0px;
-    padding-top: 20%;
+    padding-top: 45%;
     
 }
 .nav-menu li{
     list-style: none;
-    /* color: var(--clr-hero2-txt);
-    font-size: 165%; */
+     color: var(--clr-hero2-txt);
+    font-size: 165%; 
 }
 
 ul a{
     text-decoration: none;
-    font-size: 185%;
+    font-size: 125%;
     color:black ;
     font-weight: 600;
 }
@@ -111,7 +111,7 @@ ul a{
 
 /* setting a hero img to cover entire hero section */
 #hero{
-    background-image: url(../images/sebastian-staines-mfzdRsWsiRA-unsplash\ \(1\).jpg);
+    background-image: url(../images/sebastian-staines-mfzdRsWsiRA-unsplash-\(1\).jpg);
     background-size: cover;
     background-position: center;
     max-width: 100%;
@@ -127,6 +127,7 @@ ul a{
     border: 2px solid rgb(0, 0, 0);
     box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
     margin: 1% 0% 0% 5%;
+    z-index: 1200;
 }
 
 h1{
@@ -176,7 +177,7 @@ h1{
 #welcome-section{
     padding-top: 0;
     margin-top: 0%; 
-    background-color: lightsteelblue;
+    /* background-color: lightsteelblue; */
     
     
 
@@ -208,8 +209,8 @@ h2{
 
 #welcome-text{
     width:95%;
-    border: .6px solid rgb(15, 15, 15);
-    box-shadow:3px 3px 2px rgb(49, 47, 47) ;
+    /* border: .6px solid rgb(15, 15, 15);
+    box-shadow:3px 3px 2px rgb(49, 47, 47) ; */
     border-style: inset;
     font-size: 1.2rem;
     padding: 2%;
@@ -235,7 +236,7 @@ hr{
 #services{
     padding: 2% 1%;
     margin: 0;
-    background-color: lightsteelblue;    
+    /* background-color: lightsteelblue;     */
    
 }
 
@@ -255,8 +256,8 @@ hr{
 }
 /* lessons card ,an overview of what is taught and what way */
 #lessons{
-    border:1px solid var(--clr-hero2-txt) ;
-    box-shadow:1px 1px 1px 2px rgb(46, 43, 43)  ;
+    /* border:1px solid var(--clr-hero2-txt) ;
+    box-shadow:1px 1px 1px 2px rgb(46, 43, 43)  ; */
     /* width: 95%;
     height: 580px; */
     padding:4% 2% 4% 2%;
@@ -286,8 +287,8 @@ hr{
 }
 
 #camps{
-    border:1px solid var(--clr-hero2-txt) ;
-    box-shadow:1px 1px 1px 2px rgb(46, 43, 43)  ;
+    /* border:1px solid var(--clr-hero2-txt) ;
+    box-shadow:1px 1px 1px 2px rgb(46, 43, 43)  ; */
     padding:4% 2% 3% 2%;
     margin-top: 4%;
 
@@ -360,6 +361,101 @@ hr{
     margin-top: 7%;
 
 }
+/* LESSONS SECTION */
+.lessons-title{
+    font-weight: 600;
+    font-size: 150%;
+}
+#lessons1{
+   
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    
+}
+h5{
+    text-align: center;
+    font-weight: 300;
+    font-size: 100%;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.lessons-card{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color:#F1FAEE ;
+    box-shadow:  inset 0px -1px 2px 0px;
+    padding: 2%; 
+   
+}
+.lessons-card h4{
+    margin-top: 2%;
+    font-weight: 700;
+}
+.lessons-card em{
+    color: black;
+    font-weight: 400;
+  
+}
+h6{
+    margin-bottom: 1%;
+    font-size: 105%;
+}
+.lessons-card p{
+    font-weight: 200;
+}
+#start-now2{
+    padding: 2% 2% 1% 5% ;
+    border: 2px solid black;
+    box-shadow: 2px 1px 3px rgb(18, 18, 165);
+    background-color: rgb(5, 102, 57);
+    color: white;
+    font-size: .8rem;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    border: outset;
+    width: 100px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* about section */
 #about-us{
@@ -382,7 +478,7 @@ hr{
 }
 /*  */
 #our-story{
-    background-color:lightsteelblue;
+    /* background-color:lightsteelblue; */
 }
 /*  */
 h4{
