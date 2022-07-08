@@ -46,14 +46,16 @@ body{
     position: absolute;
     cursor: pointer;
     margin: .2rem 1rem 1.5rem 0;
-    right: 0;
+    right: 2%;
 }
 #bars ,#close{
     width: 1.5rem;
     font-size: 1.6rem;
+    color: white;
 }
 #close{
     display: none;
+    color: white;
     
    
     
@@ -68,7 +70,7 @@ body{
 .nav-menu{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
     margin-top: 0px;
     position: absolute;
@@ -87,7 +89,7 @@ body{
 
 ul a{
     text-decoration: none;
-    font-size: 125%;
+    font-size: 105%;
     color:black ;
     font-weight: 600;
 }
@@ -192,8 +194,8 @@ h2{
 #welcome-message > img{
     max-width: 900px;
     /* height:50vh ; */
-    border: .6px solid gray;
-    box-shadow:3px 3px 2px rgb(49, 47, 47) ;
+    /* border: .6px solid gray;
+    box-shadow:3px 3px 2px rgb(49, 47, 47) ; */
     border-style: inset;
     margin-bottom: 4%;
      
@@ -275,7 +277,7 @@ hr{
 #our-lessons{
     width:100%;
     /* height: 250px; */
-    box-shadow: 0 1px 0 2px gray;
+    /* box-shadow: 0 1px 0 2px gray; */
     
 }
 
@@ -303,7 +305,7 @@ hr{
 
 #our-camps{
     width:100%;
-    box-shadow: 0 1px 0 2px gray;
+    /* box-shadow: 0 1px 0 2px gray; */
     
 }
 
@@ -327,8 +329,8 @@ hr{
 /*  */
 #our-rental{
     width:100%;
-    height: 250px;
-    box-shadow: 0 1px 0 2px gray;
+    /* height: 250px; */
+    /* box-shadow: 0 1px 0 2px gray; */
 
 }
 /*  */
@@ -382,8 +384,8 @@ h5{
 .lessons-card{
     margin-bottom: 5%;
     margin-top: 5%;
-    background-color:#F1FAEE ;
-    box-shadow:  inset 0px -1px 2px 0px;
+    background-color: #b1bbae;
+    /* box-shadow:  inset 0px -1px 2px 0px; */
     padding: 2%; 
    
 }
@@ -429,7 +431,7 @@ h6{
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
-    box-shadow: -1px 0px 7px 1px grey;
+   
   }
   
   .slides {
@@ -452,7 +454,7 @@ h6{
     flex-direction: column;
     flex-shrink: 0;
     /* font-size: 150%; */
-    height: 40vh;
+    height: 70vh;
     justify-content: flex-start;
     margin: 0 1rem;
     position: relative;
@@ -465,6 +467,7 @@ h6{
   
   .carousel__nav {
     padding: 1.25rem .5rem;
+    padding-top: 0;
   }
   
   .slider-nav {
@@ -557,18 +560,21 @@ h6{
 
 }
 /*  */
-.about-hero > h2{
+#about-us > h2{
     text-align: center;
     width: 100%;
     padding-top: 8%;
-    color: var(--clr-hero-txt);
+    color: var(--clr-hero2-txt);
 
 }
 /*  */
 .about-hero{
-    background-image: url(../images/surf-club-about-us.jpg);
+    /* background-image: url(../images/surf-club-about-us.jpg);
     background-size: cover;
-    height: 50vh;
+    height: 50vh; */
+}
+#about-hero{
+    width: 100%;
 }
 /*  */
 #our-story{
@@ -585,8 +591,8 @@ h4{
 /*  */
 .text-story{
     margin-top: .5%;
-    border:1px solid var(--clr-hero2-txt) ;
-    box-shadow:1px 1px 1px 0px rgb(46, 43, 43) 
+    /* border:1px solid var(--clr-hero2-txt) ;
+    box-shadow:1px 1px 1px 0px rgb(46, 43, 43)  */
 }
 /*  */
 .text-story > p{
@@ -595,7 +601,7 @@ h4{
 }
 /*  */
 #video{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: .5%;
     width: 100%;
 }
@@ -622,6 +628,7 @@ h3{
    
 
 } */
+/* video */
 .map{
     width: 100vw;
     height:40vh ;
@@ -629,6 +636,34 @@ h3{
 #map{
     width: 100%;
     height: 100%;
+}
+/* our team */
+#our-team{
+    padding: 1%;
+}
+
+#our-team > h3{
+    color:blue;
+    text-decoration: underline;
+}
+.instructor-card{
+    
+    /* border: 1px red solid; */
+    width: 100%;
+    max-width: 500px;
+}
+#instructor1{
+    width: 100%;
+    /* box-shadow: 0 1px 0 2px grey ; */
+
+}
+.instructor-card > h4{
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+.instructor-card > p {
+    margin-top: 1%;
 }
 
 /* creating a contact form */
@@ -721,31 +756,6 @@ textarea{
     color: white;
     margin-top: 20%;
 }
-#our-team{
-    padding: 1%;
-}
 
-#our-team > h3{
-    color:blue;
-    text-decoration: underline;
-}
-.instructor-card{
-    
-    /* border: 1px red solid; */
-    width: 100%;
-    max-width: 500px;
-}
-#instructor1{
-    width: 100%;
-    box-shadow: 0 1px 0 2px grey ;
 
-}
-.instructor-card > h4{
-    color: black;
-    margin-top: 0px;
-    margin-bottom: 5%;
-}
-.instructor-card > p {
-    margin-top: 1%;
-}
 
