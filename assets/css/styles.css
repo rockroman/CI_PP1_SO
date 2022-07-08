@@ -405,7 +405,7 @@ h6{
 .lessons-card p{
     font-weight: 200;
 }
-#start-now2{
+.start-now2{
     padding: 2% 2% 1% 5% ;
     border: 2px solid black;
     box-shadow:-1px 2px 11px 1px rgb(23 80 91) ;
@@ -431,6 +431,7 @@ h6{
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
+    border: 1px solid red;
    
   }
   
@@ -557,6 +558,7 @@ h6{
 /* about section */
 #about-us{
     padding: 1%;
+    border: 1px solid green;
 
 }
 /*  */
@@ -652,7 +654,7 @@ h3{
     width: 100%;
     max-width: 500px;
 }
-#instructor1{
+.instructor1{
     width: 100%;
     /* box-shadow: 0 1px 0 2px grey ; */
 
@@ -667,6 +669,9 @@ h3{
 }
 
 /* creating a contact form */
+#contact-us{
+    border: 2px solid yellow;
+}
 #split-form{
     display: flex;
     border: 1px solid rgb(30, 3, 65);
