@@ -1,5 +1,5 @@
 /*  */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Piazzolla:opsz@8..30&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300&family=Roboto+Condensed&display=swap');
 
 /* setting a color palette for project with creating css variables */
 :root{
@@ -14,8 +14,7 @@ body{
     padding: .6%;
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
-    /* font-family: 'Piazzolla', serif; */
+    font-family: Arvo,serif;
     
    
 
@@ -407,7 +406,7 @@ h6{
 #start-now2{
     padding: 2% 2% 1% 5% ;
     border: 2px solid black;
-    box-shadow: 2px 1px 3px rgb(18, 18, 165);
+    box-shadow:-1px 2px 11px 1px rgb(23 80 91) ;
     background-color: rgb(5, 102, 57);
     color: white;
     font-size: .8rem;
@@ -418,7 +417,102 @@ h6{
     width: 100px;
     height: 25px;
 }
+ #camps1{
+    margin-bottom: 5%;
+    position: relative;
+    height: 40vh;
+ }
 
+/* carousel styling */
+  
+  .carousel {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: -1px 0px 7px 1px grey;
+  }
+  
+  .slides {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .slides::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slides-item {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    /* font-size: 150%; */
+    height: 40vh;
+    justify-content: flex-start;
+    margin: 0 1rem;
+    position: relative;
+    scroll-snap-align: start;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform .5s;
+    width: 100%;
+  }
+  
+  .carousel__nav {
+    padding: 1.25rem .5rem;
+  }
+  
+  .slider-nav {
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #000;
+    display: inline-flex;
+    height: 1.5rem;
+    justify-content: center;
+    padding: .5rem;
+    position: relative;
+    text-decoration: none;
+    width: 1.5rem;
+  }
+  
+  .slider-nav:hover,
+  .slider-nav:active {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .slide-1 {
+   background-image: url(../images/funny-g111ee2bb1_1280-\(1\)-surf-lesson.jpg);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+  }
+  
+  .slide-2 {
+    
+    background-image: url(../images/pexels-magda-ehlers-11335747-\(1\).jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .slide-3 {
+    background-image: url(../images/new.surfer.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .slide-img{
+    border: 1px solid green;
+  }
 
 
 
