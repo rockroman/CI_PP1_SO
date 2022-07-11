@@ -19,6 +19,11 @@ body{
    
 
 }
+.section-title{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-decoration: underline; 
+}
 /* putting logo of company in top left corner(logo made with "looka.com" */
 #logo-nav{
     height:9vh;
@@ -198,6 +203,8 @@ h2{
     box-shadow:3px 3px 2px rgb(49, 47, 47) ; */
     border-style: inset;
     margin-bottom: 4%;
+    height: auto;
+    width: auto;
      
 }
 
@@ -384,7 +391,8 @@ h5{
 .lessons-card{
     margin-bottom: 5%;
     margin-top: 5%;
-    background-color: #b1bbae;
+    background-color: #457b9d;
+    /* background-color: #b1bbae; */
     /* box-shadow:  inset 0px -1px 2px 0px; */
     padding: 2%; 
    
@@ -431,7 +439,7 @@ h6{
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    
   }
   
@@ -442,6 +450,9 @@ h6{
     scrollbar-width: none;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+  }
+  .slide-title{
+   letter-spacing: .5px;
   }
   
   .slides::-webkit-scrollbar {
@@ -515,7 +526,7 @@ h6{
   }
   
   .slide-img{
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
   /* GALLERY SECTION */
   #gallery{
@@ -564,7 +575,7 @@ h6{
 /* about section */
 #about-us{
     padding: 1%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
 }
 /*  */
@@ -660,7 +671,7 @@ h3{
 
 /* creating a contact form */
 #contact-us{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 #split-form{
     display: flex;
@@ -686,7 +697,7 @@ h3{
     box-sizing: border-box;
     height: 500px;
     border: 2px solid rgba(167, 163, 130, 0.708);
-    box-shadow: 4px 4px 15px rgb(157, 155, 152);
+    /* box-shadow: 4px 4px 15px rgb(157, 155, 152); */
     width: 60%;
     /* margin:5% auto; */
     display: flex;
@@ -751,6 +762,66 @@ textarea{
   
     margin-top: 20%;
 }
+/* footer section */
+
+
+
+
+footer{
+    background-color: rgb(12, 3, 3);
+    /* height:9% ; */
+    padding: 15px;
+}
+footer #logo{
+    margin: auto;
+    border: green;
+    margin-bottom: 25px;
+}
+
+#right-side{
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right: 2%;
+
+}
+
+
+
+footer p{
+    color: antiquewhite;
+    margin-top: 5%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.trade-mark{
+    color: antiquewhite; 
+    margin-bottom: 15px;
+
+}
+.social-media{
+    font-size: 1.5rem;
+    margin-top: 1%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    color: rgba(8, 235, 23, 0.92);
+   
+    
+}
+.social-media a{
+    color: rgba(8, 235, 23, 0.92);
+   
+    
+}
+.social-media a:hover{
+    color: blue;
+}
+
 
 
 
