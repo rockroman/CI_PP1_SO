@@ -112,7 +112,7 @@ ul a{
 
 /* setting a hero img to cover entire hero section */
 #hero{
-    background-image: url(../images/hero-img-unsplash-desktop.webp);
+    background-image: url(../images/hero-img-small-sebastian-staines-unsplash.webp);
     background-size: cover;
     background-position: center;
     max-width: 100%;
@@ -672,8 +672,8 @@ h3{
 }
 #side-form{
     height: 500px;
-    width: 40%;
-    background-image:url(../images/new.surfer.jpg);
+    width: 45%;
+   background-color: #457b9d;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -748,7 +748,7 @@ textarea{
 .adress,
 .call,
 .mail{
-    color: white;
+  
     margin-top: 20%;
 }
 
