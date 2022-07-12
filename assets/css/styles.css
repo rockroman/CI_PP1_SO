@@ -20,7 +20,8 @@ body{
 
 }
 .section-title{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 700;
     letter-spacing: 2px;
     text-decoration: underline; 
 }
@@ -371,8 +372,13 @@ hr{
 }
 /* LESSONS SECTION */
 .lessons-title{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 150%;
+}
+.lessons-subtitle{
+    font-weight: 600;
+    margin-top: 2%;
+    font-size: 1.2rem;
 }
 #lessons1{
    
@@ -383,24 +389,20 @@ hr{
 }
 h5{
     text-align: center;
-    font-weight: 300;
-    font-size: 100%;
+    /* font-weight: 300; */
+    font-size: 120%;
     margin-bottom: 0px;
     text-transform: uppercase;
 }
 .lessons-card{
     margin-bottom: 5%;
     margin-top: 5%;
-    background-color: #457b9d;
-    /* background-color: #b1bbae; */
-    /* box-shadow:  inset 0px -1px 2px 0px; */
+    /* background-color: #457b9d; */
     padding: 2%; 
+    border: .5px inset;
    
 }
-.lessons-card h4{
-    margin-top: 2%;
-    font-weight: 700;
-}
+
 .lessons-card em{
     color: black;
     font-weight: 400;
@@ -518,7 +520,7 @@ h6{
   }
   
   .slide-3 {
-    background-image: url(../images/carousel-img3-small-pexels-gotta-be-worth-it-919236.webp);
+    background-image: url(../images/carousel-img3-small1-pexels-gotta-be-worth-it-919236.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -632,12 +634,13 @@ h3{
 
 /* video */
 .map{
-    width: 100vw;
+    width: 100%;
     height:40vh ;
 }
 #map{
     width: 100%;
     height: 100%;
+    margin-left: -1%;
 }
 /* our team */
 #our-team{
@@ -678,6 +681,7 @@ h3{
     border: 1px solid rgb(30, 3, 65);
     max-width: 450px;
     margin-top: 5%;
+    box-sizing: border-box;
     
     
 }
