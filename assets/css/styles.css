@@ -8,6 +8,12 @@
     --clr-hero2-txt:rgb(11, 11, 37);
     --clr-header-nav-footer: rgb(10, 10, 10);
     --clr-section-blue: rgb(22, 99, 163);
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+    
 }
 
 body{
@@ -15,10 +21,30 @@ body{
     box-sizing: border-box;
     margin: 0;
     /* font-family: Arvo,serif; */
-    
+   
    
 
 }
+
+#back_to_top{
+  position: fixed;
+  bottom: 1%;
+  right: 5%;
+  font-size: 2.3rem;
+  color: rgb(232, 242, 232);
+  z-index: 1200;
+  font-weight: bolder;
+  border: 3px solid rgb(14, 104, 14);
+  background-color: #01070b;
+  
+
+  
+ 
+ 
+  
+  
+}
+
 /* putting logo of company in top left corner(logo made with "looka.com" */
 #logo1{
     width: 90px;
@@ -715,8 +741,7 @@ h3{
 }
 
 #our-team > h3{
-    color:blue;
-    text-decoration: underline;
+    font-size: 1.5rem;  
 }
 .instructor-card{
     
@@ -884,12 +909,12 @@ footer p{
     
 }
 .social-media a{
-    color: rgba(8, 235, 23, 0.92);
+    color:#457b9d;
    
     
 }
 .social-media a:hover{
-    color: blue;
+    color: rgb(64, 225, 115);
 }
 
 
