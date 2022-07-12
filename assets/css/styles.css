@@ -21,7 +21,8 @@ body{
 }
 /* putting logo of company in top left corner(logo made with "looka.com" */
 #logo1{
-    width: 100px;
+    width: 90px;
+    height: 100%;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
     margin: .2% 0% 0% 5%;
@@ -33,6 +34,7 @@ body{
     align-items: center;
     display: flex;
     display: none;
+    height: 60px;
     
 }
 .nav-link{
@@ -48,7 +50,15 @@ body{
     /* color: var(--clr-hero2-txt); */
     color: var(--clr-hero-txt);
     font-weight: 540;
+    padding: 9px;
+   
+ 
 }
+.nav-link a:hover{
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
 
 
 
@@ -108,7 +118,7 @@ body{
     margin-top: 0px;
     position: absolute;
     left: -100vw;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     transition: left 0.6s ease-out;
     padding-left: 0px;
     padding-top: 140px;
@@ -209,9 +219,9 @@ h1{
 
 /* welcome section shows user a brief info what SURFon is about */
 #welcome-section{
-    padding-top: 0;
+    padding: 1%;
     margin-top: 0%; 
-    /* background-color: lightsteelblue; */
+   
     
     
 
@@ -560,9 +570,9 @@ h6{
   }
   /* GALLERY SECTION */
   #gallery{
-    border: 2px solid pink;
     display: flex;
     flex-direction: column;
+    padding: 1%;
   }
   .item1{
     width: 100%;
@@ -692,11 +702,12 @@ h3{
 .map{
     width: 100%;
     height:40vh ;
+    margin: auto;
 }
 #map{
     width: 100%;
     height: 100%;
-    margin-left: -1%;
+   
 }
 /* our team */
 #our-team{
@@ -730,7 +741,7 @@ h3{
 
 /* creating a contact form */
 #contact-us{
-    /* border: 2px solid yellow; */
+    padding: 1%;
 }
 #split-form{
     display: flex;
@@ -757,17 +768,10 @@ h3{
     box-sizing: border-box;
     height: 500px;
     border: 2px solid rgba(167, 163, 130, 0.708);
-    /* box-shadow: 4px 4px 15px rgb(157, 155, 152); */
     width: 60%;
-    /* margin:5% auto; */
     display: flex;
     flex-direction: column;
     padding:2% 1% 4%;
-    /* background: url(/images/sign\ up-pexels.jpg) no-repeat ;
-    background-size: cover;
-     
-    background-blend-mode:saturation;
-   */
     
     
 }
@@ -829,8 +833,10 @@ textarea{
 
 footer{
     background-color: rgb(12, 3, 3);
-    /* height:9% ; */
     padding: 15px;
+    box-sizing: border-box;
+    width: 99%;
+    margin: auto;
 }
 footer #logo2{
     margin: auto;
