@@ -19,21 +19,32 @@ body{
    
 
 }
+/* putting logo of company in top left corner(logo made with "looka.com" */
+#logo1{
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
+    margin: 1% 0% 0% 5%;
+    z-index: 1200;
+}
+/* navigation for desktop style */
 .section-title{
     font-size: 1.7rem;
     font-weight: 700;
     letter-spacing: 2px;
     text-decoration: underline; 
 }
-/* putting logo of company in top left corner(logo made with "looka.com" */
-#logo-nav{
-    height:9vh;
-    width: 35vw;
-    margin: auto; 
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0); 
-}
+
+
 /* making a sliding navigation(original idea by'Angela Delise' */
+#logo{
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
+    margin: 1% 0% 0% 5%;
+    z-index: 1200
+
+}
 .nav{
     border-bottom: 2px solid rgb(17, 19, 19);
     position: absolute;
@@ -129,13 +140,7 @@ ul a{
 
 }
 /*  */
-#logo{
-    width: 100px;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
-    margin: 1% 0% 0% 5%;
-    z-index: 1200;
-}
+
 
 h1{
     margin-bottom: 0;
@@ -854,6 +859,25 @@ footer p{
 .social-media a:hover{
     color: blue;
 }
+
+
+/* madia queries */
+ @media screen and (min-width:775px){
+   
+    .nav-toggle{
+        display: none;
+    } 
+    .header1{
+        display: none;
+    }
+    #logo {
+        visibility:hidden;
+    }
+    nav{
+        background-color: #457b9d;
+    }
+   
+ }
 
 
 
