@@ -20,7 +20,7 @@ body{
     padding: .6%;
     box-sizing: border-box;
     margin: 0;
-    /* font-family: Arvo,serif; */
+    
    
    
 
@@ -73,7 +73,6 @@ body{
 .nav-link a{
     text-decoration: none;
     font-size: 1.2rem;
-    /* color: var(--clr-hero2-txt); */
     color: var(--clr-hero-txt);
     font-weight: 540;
     padding: 9px;
@@ -144,12 +143,12 @@ body{
     margin-top: 0px;
     position: absolute;
     left: -100vw;
-    /* box-sizing: border-box; */
     transition: left 0.6s ease-out;
     padding-left: 0px;
     padding-top: 140px;
     
 }
+
 .nav-menu li{
     list-style: none;
      color: var(--clr-hero2-txt);
@@ -162,6 +161,7 @@ ul a{
     color:black ;
     font-weight: 600;
 }
+
 #nav-checkbox:checked ~ .nav-menu{
     left:-1%;
     background-color: #457b9d;
@@ -170,6 +170,7 @@ ul a{
     z-index: 15;
    
 }
+
 #nav-checkbox:checked ~ label.nav-toggle #close{
     display: block;
     z-index: 1000;
@@ -198,7 +199,6 @@ ul a{
     letter-spacing: 2px;
     text-decoration: underline; 
 }
-
 
 h1{
     margin-bottom: 0;
@@ -262,9 +262,6 @@ h2{
 
 #welcome-message > img{
     max-width: 900px;
-    /* height:50vh ; */
-    /* border: .6px solid gray;
-    box-shadow:3px 3px 2px rgb(49, 47, 47) ; */
     border-style: inset;
     margin-bottom: 4%;
     height: auto;
@@ -281,8 +278,6 @@ h2{
 
 #welcome-text{
     width:95%;
-    /* border: .6px solid rgb(15, 15, 15);
-    box-shadow:3px 3px 2px rgb(49, 47, 47) ; */
     border-style: inset;
     font-size: 1.2rem;
     padding: 2%;
@@ -293,7 +288,6 @@ h2{
 }
 
 em{
-    /* color: red; */
     font-weight: 800;
 }
 /* styling horizontal reference to clearly separate sections */
