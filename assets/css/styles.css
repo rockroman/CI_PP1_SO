@@ -14,7 +14,7 @@ body{
     padding: .6%;
     box-sizing: border-box;
     margin: 0;
-    font-family: Arvo,serif;
+    /* font-family: Arvo,serif; */
     
    
 
@@ -230,7 +230,8 @@ h2{
 }
 
 em{
-    color: red;
+    /* color: red; */
+    font-weight: 800;
 }
 /* styling horizontal reference to clearly separate sections */
 hr{
@@ -536,6 +537,38 @@ h6{
     display: flex;
     flex-direction: column;
   }
+  .item1{
+    width: 100%;
+    height: auto;
+  }
+  .item2{
+    width: 100%;
+    height: auto;
+  }
+  .item3{
+    width: 100%;
+    height: auto;
+  }
+  .item4{
+    width: 100%;
+    height: auto;
+  }
+  .item5{
+    width: 100%;
+    height: auto;
+  }
+  .item6{
+    width: 100%;
+    height: auto;
+  }
+  .item7{
+    width: 100%;
+    height: auto;
+  }
+  .item8{
+    width: 100%;
+    height: auto;
+  }
 
 
 
@@ -589,13 +622,9 @@ h6{
 
 }
 /*  */
-.about-hero{
-    /* background-image: url(../images/surf-club-about-us.jpg);
-    background-size: cover;
-    height: 50vh; */
-}
 #about-hero{
     width: 100%;
+    height: auto;
 }
 /*  */
 #our-story{
