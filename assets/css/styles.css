@@ -24,16 +24,32 @@ body{
     width: 100px;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
-    margin: 1% 0% 0% 5%;
+    margin: .2% 0% 0% 5%;
     z-index: 1200;
 }
 /* navigation for desktop style */
-.section-title{
-    font-size: 1.7rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-decoration: underline; 
+.desktop-nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    display: none;
+    
 }
+.nav-link{
+    justify-content:center;
+    width: 70%;
+    display: flex;
+    gap: 6%;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    /* color: var(--clr-hero2-txt); */
+    color: var(--clr-hero-txt);
+    font-weight: 540;
+}
+
 
 
 /* making a sliding navigation(original idea by'Angela Delise' */
@@ -140,6 +156,12 @@ ul a{
 
 }
 /*  */
+.section-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: underline; 
+}
 
 
 h1{
@@ -810,10 +832,14 @@ footer{
     /* height:9% ; */
     padding: 15px;
 }
-footer #logo{
+footer #logo2{
     margin: auto;
     border: green;
     margin-bottom: 25px;
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
+    z-index: 1200
 }
 
 #right-side{
@@ -875,6 +901,9 @@ footer p{
     }
     nav{
         background-color: #457b9d;
+    }
+    .desktop-nav{
+        display: flex;
     }
    
  }
