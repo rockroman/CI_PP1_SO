@@ -585,9 +585,7 @@ h6{
     
   }
   
-  .slide-img{
-    /* border: 1px solid green; */
-  }
+ 
   /* GALLERY SECTION */
   #gallery{
     display: flex;
@@ -878,26 +876,45 @@ footer p{
 /* madia queries */
 @media screen and (min-width:481px) {
     .lessons-subtitle{
-        font-size: 1.4rem;
+        font-size: 1.7rem;
+        margin-bottom: 2%;
     }
     .lessons-title{
         font-size: 165%;
     }
     .lessons-card p{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .start-now2 p{
         font-size: .8rem;
     }
     h5{
-        font-size: 1rem;
+        font-size: 1.65rem;
     }
     h6{
         font-size: 1.4rem;
     }
+    h1{
+        font-size: 1.75rem;
+    }
+    h2{
+        font-size: 1.75rem;
+    }
+    .instructor-card > p{
+        font-size: 1.15rem;
+    }
+    .instructor-card > h4{
+        margin-bottom: 3%;
+    }
+    #about-us{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
     
 }
- @media screen and (min-width:775px){
+ @media screen and (min-width:768px){
    
     .nav-toggle{
         display: none;
