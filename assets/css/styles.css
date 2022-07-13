@@ -627,43 +627,6 @@ h6{
     height: auto;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* about section */
 #about-us{
     padding: 1%;
@@ -913,6 +876,27 @@ footer p{
 
 
 /* madia queries */
+@media screen and (min-width:481px) {
+    .lessons-subtitle{
+        font-size: 1.4rem;
+    }
+    .lessons-title{
+        font-size: 165%;
+    }
+    .lessons-card p{
+        font-size: 1rem;
+    }
+    .start-now2 p{
+        font-size: .8rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    h6{
+        font-size: 1.4rem;
+    }
+    
+}
  @media screen and (min-width:775px){
    
     .nav-toggle{
