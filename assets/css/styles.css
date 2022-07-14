@@ -75,7 +75,7 @@ body{
     font-size: 1.2rem;
     color: var(--clr-hero-txt);
     font-weight: 540;
-    padding: 9px;
+    padding: 5px;
    
  
 }
@@ -925,9 +925,26 @@ footer p{
     h1{
         font-size: 2.2rem;
     }
+
     h2{
         font-size: 2.2rem;
     }
+
+    .lessons-subtitle{
+        margin: 0;
+
+    }
+
+    h5{
+        margin-top: 35px;
+
+    }
+
+    .lessons-card p{
+        margin-top: 15px;
+
+    }
+
 
 }
 
@@ -947,6 +964,24 @@ footer p{
     }
     .desktop-nav{
         display: flex;
+    }
+
+    #welcome-message{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+       
+    }
+    #welcome-message > img{
+        width:50% ;
+        max-width: 550px;
+        border-style: none;
+        margin-bottom: 0;
+    }
+    #welcome-text{
+        width: 40%;
+        max-width: 500px;
+        margin: 0;
     }
    
  }
