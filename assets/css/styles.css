@@ -217,15 +217,13 @@ h1{
 
  #start-now{
    
-    padding: 2% 3% 1% 4% ;
+    padding: 2% 4% ;
     border: 2px solid black;
     box-shadow: 2px 1px 3px rgb(18, 18, 165);
     background-color: rgb(5, 102, 57);
     color: white;
     font-size: .8rem;
     text-decoration: none;
-    display: flex;
-    align-items:center;
     border: outset;
     margin-bottom: -8%;
     margin-right: 2%;
@@ -237,11 +235,12 @@ h1{
     
     
 }
-
-#start-now > p{
-    width: 100%;
-    text-align: center;
+a#start-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /* welcome section shows user a brief info what SURFon is about */
 #welcome-section{
@@ -474,18 +473,24 @@ h6{
     font-weight: 200;
 }
 .start-now2{
-    padding: 2% 2% 1% 5% ;
+    padding: 2% 4% ;
     border: 2px solid black;
     box-shadow:-1px 2px 11px 1px rgb(23 80 91) ;
     background-color: rgb(5, 102, 57);
     color: white;
     font-size: .8rem;
     text-decoration: none;
-    display: flex;
-    align-items:center;
     border: outset;
     width: 100px;
     height: 25px;
+}
+
+a.start-now2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
  #camps1{
     margin-bottom: 5%;
@@ -945,6 +950,9 @@ footer p{
         margin-top: 15px;
 
     }
+    h6{
+        margin-top: 30px;
+    }
 
 
 }
@@ -954,15 +962,18 @@ footer p{
     .nav-toggle{
         display: none;
     } 
+
     .header1{
         display: none;
     }
+
     #logo {
         visibility:hidden;
     }
     nav{
         background-color: #457b9d;
     }
+
     .desktop-nav{
         display: flex;
     }
@@ -976,16 +987,37 @@ footer p{
         width: 100%;
        
     }
+
     #welcome-message > img{
         width:50% ;
         max-width: 550px;
         border-style: none;
         margin-bottom: 0;
     }
+
     #welcome-text{
         width: 40%;
         max-width: 500px;
         margin: 0;
+    }
+
+    #service-cards{
+        flex-direction: row;
+    }
+
+    #lessons{
+       flex: 1;
+       margin-top: 0;
+    }
+
+    #camps{
+        flex: 1;
+        margin-top: 0;
+
+    }
+    
+    hr{
+        margin-bottom: 0;
     }
    
  }
