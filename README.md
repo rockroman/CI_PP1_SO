@@ -1,4 +1,4 @@
-<h1>README</h1>
+<!-- <h1>README</h1>
 Welcome to my first Milestone project with [Code institute](https://codeinstitute.net)<br> 
 
 # SURF-ON
@@ -73,4 +73,48 @@ KEY CONTENT OF THIS WEBSITE(PROJECT)
 <hr>
 
 
-</ol>
+</ol> -->
+
+
+
+# SURF-ON
+(Developer: Roman Rakic)
+
+![Mockup image](/am-i-responsive.jpg)
+
+[Live webpage](https://rockroman.github.io/CI_PP1_SO/)
+
+## Table of Content
+#
+0. [introduction](introduction)
+1. [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [Company Goals](#company-goals)
+2. [User Experience(UX)](#user-experience)
+    - [Ideal User](#ideal-user)
+    - [User Requirements and Expectations](#user-requirements-and-expectations)
+    - [User Stories](#user-stories)
+3. [Design](#design)
+    - [ Chosen Design](#chosen-design)
+    - [Wireframes](#wireframes)
+    - [Color](#colors)
+    - [Fonts](#fonts)
+    - [Structure](#structure)
+    
+4. [Technologies Used](#technologies-used)
+    - [Main Languages Used](#languages)
+    - [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+6. [Testing](#validation)
+    - [HTML Validation](#HTML-validation)
+    - [CSS Validation](#CSS-validation)
+    - [Accessibility](#accessibility)
+    - [Performance](#performance)
+    - [Device testing](#performing-tests-on-various-devices)
+    - [Browser compatibility](#browser-compatability)
+    - [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+   - [Deploying on GitHub pages](#GitHub)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
