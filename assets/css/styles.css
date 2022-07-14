@@ -684,6 +684,7 @@ h3{
     width: 100%;
     height:40vh ;
     margin: auto;
+    max-width: 450px;
 }
 #map{
     width: 100%;
@@ -964,6 +965,9 @@ footer p{
     }
     .desktop-nav{
         display: flex;
+    }
+    #hero{
+        background-image: url(../images/hero-img-unsplash-desktop.webp);
     }
 
     #welcome-message{
