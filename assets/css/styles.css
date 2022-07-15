@@ -244,7 +244,7 @@ a#start-now{
 
 /* welcome section shows user a brief info what SURFon is about */
 #welcome-section{
-    padding: 1%;
+    /* padding: 1%; */
     margin-top: 0%; 
    
     
@@ -300,7 +300,7 @@ hr{
 }
 /* our services section is giving insigt to user what SURF-ON is offering */
 #services{
-    padding: 2% 1%;
+    padding: 2% 0%;
     margin: 0;
     /* background-color: lightsteelblue;     */
    
@@ -326,7 +326,7 @@ hr{
     box-shadow:1px 1px 1px 2px rgb(46, 43, 43)  ; */
     /* width: 95%;
     height: 580px; */
-    padding:4% 2% 4% 2%;
+    padding:4% 0%;
     margin-top: 2%;
 
 }
@@ -353,9 +353,8 @@ hr{
 }
 
 #camps{
-    /* border:1px solid var(--clr-hero2-txt) ;
-    box-shadow:1px 1px 1px 2px rgb(46, 43, 43)  ; */
-    padding:4% 2% 3% 2%;
+    
+    padding:4% 0%;
     margin-top: 4%;
 
 }
@@ -439,7 +438,7 @@ hr{
 }
 #lessons1{
    
-    padding: 2%;
+    /* padding: 2%; */
     display: flex;
     flex-direction: column;
     
@@ -595,7 +594,7 @@ a.start-now2{
   #gallery{
     display: flex;
     flex-direction: column;
-    padding: 1%;
+    /* padding: 1%; */
   }
   .item1{
     width: 100%;
@@ -632,7 +631,7 @@ a.start-now2{
 
 /* about section */
 #about-us{
-    padding: 1%;
+    /* padding: 1%; */
     /* border: 1px solid green; */
 
 }
@@ -698,7 +697,7 @@ h3{
 }
 /* our team */
 #our-team{
-    padding: 1%;
+    /* padding: 1%; */
 }
 
 #our-team > h3{
@@ -727,13 +726,13 @@ h3{
 
 /* creating a contact form */
 #contact-us{
-    padding: 1%;
+    /* padding: 1%; */
 }
 #split-form{
     display: flex;
     border: 1px solid rgb(30, 3, 65);
     max-width: 450px;
-    margin-top: 5%;
+    margin: 5% 0%;
     box-sizing: border-box;
     
     
@@ -1041,6 +1040,21 @@ footer p{
     .item1,.item2{
         width: 49%;
         margin-bottom: 2%;
+    }
+    .item3{
+        margin-bottom: 2%;
+
+    }
+    .item4,.item5{
+        width: 49%;
+        margin-bottom: 2%;
+
+    }
+    .item7,.item8{
+        width: 49%;
+        margin-top: 2%;
+
+
     }
    
  }
