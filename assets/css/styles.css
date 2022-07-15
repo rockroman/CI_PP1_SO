@@ -349,6 +349,7 @@ hr{
 #lessons >p{
     font-size: 1.25rem;
     margin-bottom: 0;
+    text-align: justify;
     
 }
 
@@ -376,6 +377,7 @@ hr{
 #camps >p{
     font-size: 1.25rem;
     margin-bottom: 0;
+    text-align: justify;
    
 }
 
@@ -805,6 +807,9 @@ textarea{
     font-size: .8rem;
 
 }
+#contact:hover{
+    cursor: pointer;
+}
 .adress,
 .call,
 .mail{
@@ -1073,11 +1078,32 @@ footer p{
         width: 100%;
     }
     .our-instructors1{
-        
         display: flex;
         gap: 3%;
-        /* height: 55vh; */
         justify-content: center;
+    }
+    .instructor-card{
+        margin-bottom: 8%;
+    }
+    #contact-us{
+      
+        display: flex;
+        gap: 2%;
+    }
+    #split-form{
+        margin: 0;
+        border: none;
+        box-sizing: border-box;
+        max-width: 500px;
+
+    }
+    .map{
+        height: auto;
+        max-width: 500px;
+
+    }
+    #map{
+        height: 500px;
     }
    
  }
