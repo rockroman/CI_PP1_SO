@@ -1019,6 +1019,29 @@ footer p{
     hr{
         margin-bottom: 0;
     }
+
+    #rental{
+        margin-top: 20px;
+    }
+
+    #lessons1{
+
+    }
+
+    .lessons-card{
+        
+    }
+    #gallery{
+        color: red;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2%;
+    
+    }
+    .item1,.item2{
+        width: 49%;
+        margin-bottom: 2%;
+    }
    
  }
 
