@@ -217,7 +217,7 @@ h1{
 
  #start-now{
    
-    padding: 2% 4% ;
+    padding: 1.5% 4% ;
     border: 2px solid black;
     box-shadow: 2px 1px 3px rgb(18, 18, 165);
     background-color: rgb(5, 102, 57);
@@ -569,7 +569,7 @@ a.start-now2{
   }
   
   .slide-1 {
-   background-image: url(../images/carousel-img1-small-pexels-daniel-jurin-2245411.webp);
+   background-image: url(../images/carousel-img1-small-pexels-cemal-taskiran.webp);
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -577,14 +577,14 @@ a.start-now2{
   
   .slide-2 {
     
-    background-image: url(../images/carousel-img2-small-pexels-wendy-wei-1662576.webp);
+    background-image: url(../images/carousel-img2-small-pexels-wendy-wei.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
   }
   
   .slide-3 {
-    background-image: url(../images/carousel-img3-small-pexels-gotta-be-worth-it-919236.webp);
+    background-image: url(../images/carousel-img3-small-pexels-nikita-igonkin.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -960,23 +960,20 @@ footer p{
     h6{
         margin-top: 30px;
     }
+    .slide-1{
+        background-image: url(../images/carousel-img1-medium-pexels-cemal-taskiran.webp);
+    }
     .slide-2{
-        background-image: url(../images/carousel-img2-desktop-pexels-wendy-wei-1662576.webp);
+        background-image: url(../images/carousel-img2-medium-pexels-wendy-wei.webp);
     }
     .slide-3{
-        background-image: url(../images/carousel-img3-desktop-pexels-gotta-be-worth-it-919236.webp);
+        background-image: url(../images/carousel-img3-medium-pexels-nikita-igonkin.webp);
     }
 
 
 }
 
  @media screen and (min-width:768px){
-    h1{
-        font-size: 2.6rem;
-    }
-    h2{
-        font-size: 2.5rem;
-    }
    
     .nav-toggle{
         display: none;
@@ -995,6 +992,15 @@ footer p{
 
     .desktop-nav{
         display: flex;
+    }
+    h1{
+        font-size: 2.6rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    #logo1{
+        border: none;
     }
     #hero{
         background-image: url(../images/hero-img-unsplash-desktop.webp);
