@@ -90,7 +90,6 @@ body{
 /* making a sliding navigation(original idea by'Angela Delise' */
 #logo{
     width: 100px;
-    border: 2px solid rgb(0, 0, 0);
     box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
     margin: 1% 0% 0% 5%;
     z-index: 1200
@@ -158,7 +157,7 @@ body{
 ul a{
     text-decoration: none;
     font-size: 105%;
-    color:black ;
+    color:var(--clr-hero-txt);
     font-weight: 600;
 }
 
@@ -182,7 +181,7 @@ ul a{
 
 /* setting a hero img to cover entire hero section */
 #hero{
-    background-image: url(../images/hero-img-small-sebastian-staines-unsplash.webp);
+    background-image: url(../images/hero-img-small-pexels-saeid-anvar.webp);
     background-size: cover;
     background-position: center;
     max-width: 100%;
@@ -395,8 +394,6 @@ hr{
 /*  */
 #our-rental{
     width:100%;
-    /* height: 250px; */
-    /* box-shadow: 0 1px 0 2px gray; */
 
 }
 /*  */
@@ -455,7 +452,6 @@ h5{
 .lessons-card{
     margin-bottom: 5%;
     margin-top: 5%;
-    /* background-color: #457b9d; */
     padding: 2%; 
     border: .5px inset;
    
@@ -662,11 +658,10 @@ h4{
     padding-top: 2%;
     margin-bottom: 8%;
 }
-/*  */
+
 .text-story{
     margin-top: .5%;
-    /* border:1px solid var(--clr-hero2-txt) ;
-    box-shadow:1px 1px 1px 0px rgb(46, 43, 43)  */
+    
 }
 /*  */
 .text-story > p{
@@ -695,6 +690,7 @@ h3{
 #map{
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
    
 }
 /* our team */
@@ -742,7 +738,7 @@ h3{
 #side-form{
     height: 500px;
     width: 45%;
-   background-color: #457b9d;
+    background-color: #457b9d;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -824,7 +820,7 @@ footer{
     background-color: rgb(12, 3, 3);
     padding: 15px;
     box-sizing: border-box;
-    width: 99%;
+    width: 100%;
     margin: auto;
 }
 footer #logo2{
@@ -935,6 +931,9 @@ footer p{
 }
 
 @media screen and (min-width:620px){
+    #hero{
+        background-image: url(../images/hero-img-medium-pexels-saeid-anvar-835615.webp);
+    }
     h1{
         font-size: 2.2rem;
     }
@@ -1003,7 +1002,7 @@ footer p{
         border: none;
     }
     #hero{
-        background-image: url(../images/hero-img-unsplash-desktop.webp);
+        background-image: url(../images/hero-img-desktop-pexels-saeid-anvar-.webp);
     }
 
     #welcome-message{
@@ -1113,14 +1112,28 @@ footer p{
 
     }
     .map{
-        height: auto;
-        max-width: 500px;
+        height: 500px;
+        max-width: 100%;
 
     }
     #map{
         height: 500px;
     }
    
+ }
+
+ @media screen and (min-width:920px){
+    
+    #contact-us{
+        gap: 0;
+    }
+    #map{
+        max-width: 100%;
+
+    }
+    .map{
+        max-width: 100%;
+    }
  }
 
 
