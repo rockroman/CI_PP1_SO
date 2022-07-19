@@ -267,6 +267,7 @@ h2{
      
 }
 
+
 #welcome-message{
    
     display: flex;
@@ -1020,7 +1021,7 @@ footer p{
 
     #welcome-message > img{
         width:50% ;
-        max-width: 550px;
+        max-width: 850px;
         border-style: none;
         margin-bottom: 0;
     }
