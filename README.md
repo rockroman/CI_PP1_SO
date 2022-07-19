@@ -118,3 +118,33 @@ KEY CONTENT OF THIS WEBSITE(PROJECT)
    - [Deploying on GitHub pages](#GitHub)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
+<hr>
+
+## Introduction
+
+SURF-ON is website intended for passionate surfing enthuisiast ,and those who are about to become one.
+It is an imaginary company but with intention for someone to use the content of SURF-ON site maybe as 
+an idea to make imaginary come to life and make surfing community expand.
+With that tought im inviting you to join me on a virtual journey of making SURF-ON.
+Targeted user is any adventureos person aged 7-120yrs who is willling to learn and enjoy life ,sea,sun ,wind and sand.
+Trought this website project user will be briefly introduced with company goals value it brings into the market and services it provides<br>
+Website is first of five milestone projects for acquiring the "Diploma In Software Development" with Code institute.
+Requirements of this project
+is use of HTML and CSS in creating fully responsive website with minimum 3 pages (or distinct sections)
+
+## Project Goals 
+***
+
+### User Goals
+- To find a company to learn how to Surf quick,efficient and safe
+- See clearly full range of what company offers
+- Clear pricing of offers
+- Easy to find information about company
+- Clearly displayed location of company
+- Clearly displayed information how to get in touch with the Buissness 
+- Have a few options how to get in touch and connect.
+
+### Company Goals
+- 
+
