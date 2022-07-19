@@ -146,5 +146,11 @@ is use of HTML and CSS in creating fully responsive website with minimum 3 pages
 - Have a few options how to get in touch and connect.
 
 ### Company Goals
-- 
+- Promote and advertise buissnes
+- Atrract more and increase the number of new clients
+- Expand the buissnes
+- Provide expected service to all types of clients
+- Provide quick and easy to find information about buissnes to potential clients
+- Ensure to have a clear distinction from competitors
+- Bring value to client and market
 
