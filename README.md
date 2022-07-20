@@ -3,7 +3,7 @@
 # SURF-ON
 (Developer: Roman Rakic)
 
-![Mockup image](/am-i-responsive.jpg)
+![Mockup image](docs/am-i-responsive-img.png)
 
 [Live webpage](https://rockroman.github.io/CI_PP1_SO/)
 
@@ -98,5 +98,23 @@ Preffered type of user who would benefit from visiting this website and vice ver
 
 ### User Stories
 
-### New(First-time) User
+####  New(First-time) User
+0. As a New User,i want to easily to navigate the entire website intuitively.
+1. As a New User,i want to know what the company offers.
+2. As a New User,i want to know the price of the services that company offers.
+3. As a New User,i want to know the best and quickest way to contact the company.
+4. As a New User,i want to know where the company is located.
+5. As a New User,i want to know how long does the company exists.
+6. As a New User,i want to know what does it look like to use one or more of the services.
+
+#### Returning User
+7. As a returning user,i need the information im looking for to be easy to find as i remeber.
+8. As a returning user,i want to always be no more than 3 clicks away from contacting the company or returning to a starting position.
+9. As a returning user,i want to find and connect with company on social media.
+10. As a returning user, i want to know more about the team that will possibly train me.
+11. As a returning user,i want to see all options that are avaliable to me.
+12. As a returning user, 
+
+
+
 
