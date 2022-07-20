@@ -113,8 +113,16 @@ Preffered type of user who would benefit from visiting this website and vice ver
 9. As a returning user,i want to find and connect with company on social media.
 10. As a returning user, i want to know more about the team that will possibly train me.
 11. As a returning user,i want to see all options that are avaliable to me.
-12. As a returning user, 
+12. As a returning user,i want to be pleased with website  functionality so i can recommend it to my friends
 
+## Design
+
+### Chosen design
+
+This project was design to attract variety of clients and potential users ,using a plain white background for the
+body with some vivid sharp images of sea and seaside scenery visualy appealing and eye catching.
+
+### Wireframes
 
 
 
