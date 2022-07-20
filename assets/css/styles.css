@@ -3,7 +3,7 @@
 
 /* setting a color palette for project with creating css variables */
 :root{
-    --clr-sect:rgb(91, 91, 194);
+    --clr-navigation: #457b9d;
     --clr-hero-txt:white;
     --clr-hero2-txt:rgb(11, 11, 37);
     --clr-header-nav-footer: rgb(10, 10, 10);
@@ -160,7 +160,7 @@ ul a{
 
 #nav-checkbox:checked ~ .nav-menu{
     left:-1%;
-    background-color: #457b9d;
+    background-color:var(--clr-navigation);
     height: 70vh;
     width: 100%;
     z-index: 15;
