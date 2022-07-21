@@ -4,10 +4,10 @@
 /* setting a color palette for project with creating css variables */
 :root{
     --clr-navigation: #457b9d;
-    --clr-hero-txt:white;
-    --clr-hero2-txt:rgb(11, 11, 37);
-    --clr-header-nav-footer: rgb(10, 10, 10);
-    --clr-section-blue: rgb(22, 99, 163);
+    --clr-hero-txt:#ffffff;
+    --clr-hero2-txt:#0b0b25;
+    --clr-header-nav-footer: #0a0a0a;
+    --clr-section-blue: #1663a3;
     
 }
 html{
@@ -17,7 +17,7 @@ html{
 }
 
 body{
-    padding:0% .2%;
+    padding:0% .6%;
     box-sizing: border-box;
     margin: 0;
 
@@ -28,10 +28,10 @@ body{
   bottom: 1%;
   right: 5%;
   font-size: 2.3rem;
-  color: rgb(232, 242, 232);
+  color: #e8f2e8;
   z-index: 1200;
   font-weight: bolder;
-  border: 3px solid rgb(14, 104, 14);
+  border: 3px solid #0e680e;
   background-color: #01070b;
   
 
@@ -257,7 +257,6 @@ h2{
 
 #welcome-message > img{
     max-width: 900px;
-    border-style: inset;
     margin-bottom: 4%;
     height: auto;
     width: auto;
@@ -470,7 +469,6 @@ h6{
 .start-now2{
     padding: 2% 4% ;
     border: 2px solid black;
-    box-shadow:-1px 2px 11px 1px rgb(23 80 91) ;
     background-color: rgb(5, 102, 57);
     color: white;
     font-size: .8rem;
@@ -793,8 +791,8 @@ textarea{
     background-color:rgb(6, 114, 13);
     padding: 3% 3%;
     margin-top: 3%;
-    border: 1px solid  rgb(0, 0, 0);
-    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    /* border: 1px solid  rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px rgb(0, 0, 0); */
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: .8rem;
