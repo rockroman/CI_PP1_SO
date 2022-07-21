@@ -14,6 +14,7 @@ html{
     scroll-behavior: smooth;
     
     
+    
 }
 
 body{
@@ -240,7 +241,7 @@ a#start-now{
 
 /* welcome section shows user a brief info what SURFon is about */
 #welcome-section{
-    /* padding: 1%; */
+    padding: .4%;
     margin-top: 0%; 
    
     
@@ -273,7 +274,6 @@ h2{
 
 #welcome-text{
     width:95%;
-    border-style: inset;
     font-size: 1.2rem;
     padding: 2%;
     text-align: left;
@@ -434,7 +434,7 @@ hr{
 }
 #lessons1{
    
-    /* padding: 2%; */
+    padding: .5%;
     display: flex;
     flex-direction: column;
     
@@ -740,6 +740,7 @@ h3{
     justify-content:flex-start;
     gap: 15%;
     color: oldlace;
+    font-family: system-ui,apple-system, Roboto, sans-serif;
     
 }
 
