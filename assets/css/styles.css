@@ -476,6 +476,9 @@ h6{
     width: 100px;
     height: 25px;
 }
+.start-now2 > p{
+    font-size: .8rem;
+}
 
 a.start-now2{
     
@@ -735,7 +738,7 @@ h3{
 #side-form{
     height: 500px;
     width: 45%;
-    background-color: #457b9d;
+    background-color: #1663a3;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -869,7 +872,7 @@ footer p{
     
 }
 .social-media a{
-    color:#457b9d;
+    color:#1663a3;
    
     
 }
