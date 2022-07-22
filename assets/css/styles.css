@@ -1,6 +1,5 @@
-/*  */
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300&family=Roboto+Condensed&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comfortaa:wght@500&family=Roboto+Flex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
 /* setting a color palette for project with creating css variables */
 :root{
     --clr-navigation: #457b9d;
@@ -12,6 +11,7 @@
 }
 html{
     scroll-behavior: smooth;
+
       
 }
 
@@ -19,6 +19,8 @@ body{
     padding:0% .6%;
     box-sizing: border-box;
     margin: 0;
+    font-family:Libre Caslon Text,Comfortaa,serif;
+   
 
 }
 
