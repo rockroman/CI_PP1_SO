@@ -592,40 +592,16 @@ a.start-now2{
   #gallery{
     display: flex;
     flex-direction: column;
-    /* padding: 1%; */
+    padding: .4%;
   }
-  .item1{
+  picture{
+    margin: 0;
+  }
+  .item{
     width: 100%;
     height: auto;
   }
-  .item2{
-    width: 100%;
-    height: auto;
-  }
-  .item3{
-    width: 100%;
-    height: auto;
-  }
-  .item4{
-    width: 100%;
-    height: auto;
-  }
-  .item5{
-    width: 100%;
-    height: auto;
-  }
-  .item6{
-    width: 100%;
-    height: auto;
-  }
-  .item7{
-    width: 100%;
-    height: auto;
-  }
-  .item8{
-    width: 100%;
-    height: auto;
-  }
+  
 
 /* about section */
 #about-us{
@@ -708,7 +684,7 @@ h3{
     max-width: 640px;
     margin-bottom: 15%;
 }
-.instructor1{
+.instructor-img{
     width: 100%;
     /* box-shadow: 0 1px 0 2px grey ; */
 
@@ -799,8 +775,6 @@ textarea{
     background-color:rgb(6, 114, 13);
     padding: 3% 3%;
     margin-top: 3%;
-    /* border: 1px solid  rgb(0, 0, 0);
-    box-shadow: 1px 1px 2px rgb(0, 0, 0); */
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: .8rem;
@@ -1070,28 +1044,21 @@ footer p{
         
     }
     #gallery{
-        color: red;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 1%;
     
     }
-    .item3,.item2{
+    .item{
         width: 49%;
         margin-bottom: 1%;
     }
-    .item1{
-        margin-bottom: 1%;
-
+    #image-1,#image-6{
+        width: 100%;
+        height: auto;
+    
     }
-    .item4,.item5{
-        width: 49%;
-        margin-bottom: 1%;
-    }
-    .item7,.item8{
-        width: 49%;
-        margin-top: 1%;
-    }
+    
     h4{
         margin-bottom: 0;
     }
@@ -1102,7 +1069,7 @@ footer p{
     #our-team{
         width: 100%;
     }
-    .our-instructors1{
+    .instructor{
         display: flex;
         gap: 3%;
         justify-content: center;
@@ -1158,6 +1125,13 @@ footer p{
     }
     .map{
         max-width: 100%;
+    }
+    footer p{
+        width: 80%;
+        font-size: 1.25rem;
+    }
+    .social-media{
+        font-size: 1.75rem;
     }
  }
 
