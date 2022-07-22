@@ -326,7 +326,7 @@ hr{
 }
 
 #lessons > h2{
-    width: 95%;
+    width: 100%;
     font-size: 1.5rem;
     text-align: center;
     
@@ -343,7 +343,8 @@ hr{
 #lessons >p{
     font-size: 1.15rem;
     margin-bottom: 0;
-    text-align: justify;
+    text-align:initial;
+    padding: 0 2%;
     
 }
 
@@ -356,7 +357,7 @@ hr{
 
 #camps > h2{
     width: 100%;
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     text-align: center;
     
    
@@ -369,9 +370,10 @@ hr{
 }
 
 #camps >p{
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     margin-bottom: 0;
-    text-align: justify;
+    text-align: initial;
+    padding: 0 2%;
    
 }
 
@@ -402,7 +404,6 @@ hr{
 #testemonial-quote{
     padding: 3%;
     border:1px solid var(--clr-hero2-txt) ;
-    box-shadow:1px 1px 1px 2px rgb(46, 43, 43)  ;
     margin: 6% .5% 0% .5%;
     background-color: var(--clr-hero-txt);
 }
@@ -428,7 +429,8 @@ hr{
 .lessons-subtitle{
     font-weight: 600;
     margin-top: 2%;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 #lessons1{
    
