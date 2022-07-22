@@ -26,7 +26,7 @@
     
 4. [Technologies Used](#technologies-used)
     - [Main Languages Used](#languages)
-    - [Frameworks & Tools](#frameworks-&-tools)
+    - [Frameworks-Libraries & Programs Used](#Frameworks-Libraries-&-Programs-Used)
 5. [Features](#features)
 6. [Testing](#validation)
     - [HTML Validation](#HTML-validation)
@@ -124,5 +124,42 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 
 ### Wireframes
 
+### Colour
+
+### Fonts
+
+### Structure
+
+  Website is structured in intuitive ,user friendly and familiar way as a one landing page divided into distinct sections.
+  Navigation is done separatly for mobile and desktop screens in a standard industry way
+  Website is divided into six separate sections as follows:
+ 1. Main section( hero section with image,2 types of  navigation wich is screen size dependant,welcoming paragraph and brief info about company)
+ 2. Lessons section(with three types of services for client to choose from)
+ 3. Camps section(carousel feature with 3 different camps that company offers )
+ 4. Gallery section(Images capturing the moments from lessons and surfing )
+ 5. About us section(More information about company)
+ 6. Contact us section(Information how to get in touch with company ,contact form and google map of the location.)
 
 
+## Technologies Used
+<hr>
+
+### Languages
+- HTML5
+- CSS
+
+### Frameworks,Libraries & Programs Used
+- Gitpod
+- GitHub
+- Git
+- Tinypng
+- Font Awsome
+- Balsamiq
+- Coolorsd
+- Google Fonts
+
+## Features
+<hr>
+
+### Logo
+- 
