@@ -1135,6 +1135,29 @@ footer p{
     }
  }
 
+ /* page 404 style */
+ .page-404{
+    background: url(../images/404-img-large-pexels-lisha-riabinina.jpg) center center ;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .page-404-title{
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: red;
+ }
+ .page-404-subtitle{
+    font-size: 1.7rem;
+    text-align: center;
+    width: 100%;
+    color:white;
+  
+ }
+
 
 
 
