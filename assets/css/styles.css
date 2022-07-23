@@ -781,16 +781,13 @@ textarea{
 /* footer section */
 footer{
     background-color: rgb(12, 3, 3);
-    padding: 15px;
+    padding: 5px;
     box-sizing: border-box;
     width: 100%;
     margin: auto;
 }
 
 footer #logo2{
-    margin: auto;
-    border: green;
-    margin-bottom: 25px;
     width: 100px;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
@@ -803,20 +800,19 @@ footer #logo2{
     flex-direction: column;
     justify-content:space-evenly;
     align-items: center;
-    margin-right: 2%;
+   
 
 }
 
 footer p{
     color: antiquewhite;
-    margin-top: 5%;
     font-size: 1.15rem;
     text-align: center;
 }
 
 .trade-mark{
     color: antiquewhite; 
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-align: center;
 
 }
@@ -1128,7 +1124,7 @@ footer p{
     }
     footer p{
         width: 80%;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
     .social-media{
         font-size: 1.75rem;
