@@ -105,6 +105,9 @@ body{
 .nav,label{
     z-index: 1000;
 }
+.label-dummy{
+    display: none;
+}
 
 
 .nav-toggle{
@@ -1169,8 +1172,7 @@ footer p{
     text-decoration: none;
     display: block;
     border:  2px gray;
-    margin-bottom: 2%;
-   
+    margin-bottom: 2%;  
     
 }
  
