@@ -162,4 +162,5 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 <hr>
 
 ### Logo
-- 
+- Featured in both types of navigation and in footer of a website,custom made on [looka.com](https://looka.com/)
+
