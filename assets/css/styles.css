@@ -1157,6 +1157,23 @@ footer p{
     color:white;
 
  }
+ .button-container{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .home-btn {
+    background-color: green;
+    color: var(--clr-hero-txt);
+    text-decoration: none;
+    display: block;
+    border:  2px gray;
+    margin-bottom: 2%;
+   
+    
+}
+ 
 
 
 
