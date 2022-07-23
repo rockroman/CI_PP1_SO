@@ -65,7 +65,7 @@ body{
     justify-content:center;
     width: 70%;
     display: flex;
-    gap: 6%;
+    gap: 4%;
 }
 
 .nav-link a{
@@ -599,6 +599,8 @@ a.start-now2{
 /* about section */
 #about-us{
     padding: .6%;
+    scroll-margin-top: -20px;
+
 }
 
 #about-us > h2{
@@ -876,9 +878,9 @@ footer p{
     }
     #about-us{
         display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     #split-form{
         margin: auto;
@@ -1084,8 +1086,10 @@ footer p{
         overflow: hidden;
         position: fixed;
         width: 98.8%;
-        z-index: 200;
-        
+        z-index: 200;  
+    }
+    .nav-link{
+        gap: 6%;
     }
     #hero{
         background-position-y:.1px;
@@ -1104,13 +1108,13 @@ footer p{
     
     #contact-us{
         gap: 0;
-        scroll-margin-top: 130px;
+        scroll-margin-top: 70px;
     }
     #img-gallery{
         scroll-margin-top: 80px;
     }
     #camp{
-        scroll-margin-top: 80px;
+        scroll-margin-top: 10px;
     }
     #lesson{
         scroll-margin-top: 80px; 
