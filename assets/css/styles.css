@@ -409,7 +409,7 @@ hr{
     height: 1px;
     background-color: rgb(207, 18, 18);
     border: 1.5px solid rgb(0, 0, 0);
-    margin-top: 7%;
+    margin-top: 40px;
 
 }
 /* LESSONS SECTION */
@@ -507,7 +507,7 @@ a.start-now2{
     overflow-x: scroll;
     scrollbar-width: none;
     scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
   }
 
   .slide-title{
@@ -647,11 +647,9 @@ h3{
 }
 
 .map{
-    width: 100%;
-    height:40vh ;
-    margin: auto;
     max-width: 450px;
 }
+
 
 #map{
     width: 100%;
@@ -690,29 +688,23 @@ h3{
 }
 
 /* creating a contact form */
-#contact-us{
-    color: green;
+#map{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+   
 }
 
-#split-form{
-    display: flex;
-    /* border: 1px solid rgb(30, 3, 65); */
-    max-width: 650px;
-    margin: 5% 0%;
-    box-sizing: border-box;
-    flex-direction: column; 
+#contact-us{
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 #side-form{
-    /* height: 500px;
-    width: 45%;
-    background-color: #1663a3;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    gap: 15%;
-    color: oldlace;
-    font-family: system-ui,apple-system, Roboto, sans-serif; */
+   
     height: 400px;
     /* width: 45%; */
     /* background-color: #1663a3; */
@@ -726,19 +718,19 @@ h3{
 
 .my-form{
     box-sizing: border-box;
-    /* height: 500px; */
+    height: auto;
     border: 2px solid rgba(167, 163, 130, 0.708);
     width: 100%;
     display: flex;
     flex-direction: column;
     padding:2% 1% 4%;
-    max-width: 800px;     
+    max-width: 450px; 
+    margin: 1% 0;    
 }
 .form{
     font-size: 1.5rem;
     text-align: center;
     width: 100%;
-    color: black;
 }
 
 #full-name,
@@ -789,9 +781,10 @@ textarea{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 250px;
+    width: 200px;
     color: black;
     border: .5px outset;
+    padding: 1%;
 }
 #side-form p{
     font-size: 1.25rem;
@@ -803,13 +796,14 @@ textarea{
     font-size: 1.45rem;
 }
 
+
 /* footer section */
 footer{
     background-color: rgb(12, 3, 3);
     padding: 5px;
     box-sizing: border-box;
     width: 100%;
-    margin: auto;
+    margin:5px auto;
 }
 
 footer #logo2{
@@ -861,7 +855,7 @@ footer p{
     color: rgb(64, 225, 115);
 }
 
-/* madia queries */
+/* media queries */
 @media screen and (min-width:481px) {
     .lessons-subtitle{
         font-size: 1.7rem;
@@ -956,6 +950,28 @@ footer p{
         background-image: url(../images/carousel-img3-medium-pexels-nikita-igonkin.webp);
         background-position-y: 45px;
     }
+    #contact-us{
+        grid-template-columns: 45% 55%;
+
+    }
+    #side-form{
+        flex-direction: row;
+        height: auto;
+        margin-top: 5%;
+    }
+    .my-form{
+        margin: 0;
+        max-width: 100%;
+    }
+   .column-span-2{
+    grid-column: span 2;
+   }
+   .map{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+   }
+ 
 
 
 }
@@ -1081,30 +1097,7 @@ footer p{
     .instructor-card{
         margin-bottom: 8%;
     }
-    #contact-us{
-        display: flex;
-        flex-direction: column;
-        gap: 2%;
-    }
-    #split-form{
-        margin: 0;
-        border: none;
-        box-sizing: border-box;
-        max-width: 900px;
-        flex-direction: row;
-
-    }
-    #side-form{
-        height: auto;
-    }
-    .map{
-        height: 500px;
-        max-width: 100%;
-
-    }
-    #map{
-        height: 500px;
-    }
+  
    
  }
  
@@ -1132,11 +1125,10 @@ footer p{
     h2{
         font-size: 2.9rem;
     }
-    
     #contact-us{
-        gap: 0;
-        scroll-margin-top: 70px;
+        scroll-margin-top: -35px;
     }
+
     #img-gallery{
         scroll-margin-top: 80px;
     }
@@ -1146,13 +1138,7 @@ footer p{
     #lesson{
         scroll-margin-top: 80px; 
     }
-    #map{
-        max-width: 100%;
-
-    }
-    .map{
-        max-width: 100%;
-    }
+    
     footer p{
         width: 80%;
         font-size: 1.15rem;
