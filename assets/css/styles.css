@@ -165,7 +165,7 @@ ul a{
 #nav-checkbox:checked ~ .nav-menu{
     left:-1%;
     background-color:var(--clr-navigation);
-    height: 70vh;
+    height: 61vh;
     width: 100%;
     z-index: 15;
    
@@ -182,7 +182,7 @@ ul a{
 
 /* setting a hero img to cover entire hero section */
 #hero{
-    background-image: url(../images/hero-img-medium-pexels-saeid-anvar-835615.webp);
+    background-image: url(../images/hero-img-medium-pexels-saeid-anvar.webp);
     background-size: cover;
     background-position: 74%;
     max-width: 100%;
@@ -190,6 +190,7 @@ ul a{
     flex-direction: column;
     justify-content:space-between;
     height: 85vh;
+    background-color: black;
 
 }
 
@@ -225,7 +226,7 @@ h1{
     font-size: .8rem;
     text-decoration: none;
     border: outset;
-    margin-bottom: -10%;
+    margin-bottom: -7%;
     margin-right: 2%;
     width: 100px;
     height: 25px;
@@ -669,7 +670,7 @@ h3{
 .instructor-card{
     width: 100%;
     max-width: 640px;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
 }
 .instructor-img{
     width: 100%;
@@ -695,16 +696,15 @@ h3{
 
 #split-form{
     display: flex;
-    border: 1px solid rgb(30, 3, 65);
-    max-width: 450px;
+    /* border: 1px solid rgb(30, 3, 65); */
+    max-width: 650px;
     margin: 5% 0%;
     box-sizing: border-box;
-    
-    
+    flex-direction: column; 
 }
 
 #side-form{
-    height: 500px;
+    /* height: 500px;
     width: 45%;
     background-color: #1663a3;
     display: flex;
@@ -712,25 +712,33 @@ h3{
     justify-content:flex-start;
     gap: 15%;
     color: oldlace;
-    font-family: system-ui,apple-system, Roboto, sans-serif;
-    
+    font-family: system-ui,apple-system, Roboto, sans-serif; */
+    height: 500px;
+    /* width: 45%; */
+    /* background-color: #1663a3; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+    color: oldlace;
+    font-family: system-ui,apple-system, Roboto, sans-serif;   
 }
 
 .my-form{
     box-sizing: border-box;
-    height: 500px;
+    /* height: 500px; */
     border: 2px solid rgba(167, 163, 130, 0.708);
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding:2% 1% 4%;
-      
+    max-width: 800px;     
 }
 .form{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
     width: 100%;
-    color: blue;
+    color: black;
 }
 
 #full-name,
@@ -738,39 +746,35 @@ h3{
 #email
 {
     width: 75%;
-    box-shadow: 1px .8px 12px rgb(1, 1, 7);
+    box-shadow: 0px 1px 3px rgb(1, 1, 7);
     height: 1.25rem;
     padding: 2%;
-    border-radius: .3rem;
-    border:double 3px rgb(24, 24, 71);
-    margin: 0 auto;
-  
+    border-radius: .3rem; 
+    margin: 0 auto; 
 }
 
 label{
     color: rgb(14, 13, 13);
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 700;
     padding-left: 13%;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 textarea{
-    width: 74%;
-    margin-left: 13%;
+    width: 79%;
+    margin-left: 10%;
 }
 
 #contact{
-    width: 120px;
+    width: 180px;
     height: 45px;
-    margin: auto 12%;
-    background-color:rgb(6, 114, 13);
-    padding: 3% 3%;
+    margin: auto 10%;
+    background-color:#146a19;
     margin-top: 3%;
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: .8rem;
-
 }
 
 #contact:hover{
@@ -780,7 +784,23 @@ textarea{
 .adress,
 .call,
 .mail{
-    margin-top: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    color: black;
+    border: .5px outset;
+}
+#side-form p{
+    font-size: 1.25rem;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+#side-form i{
+    font-size: 1.45rem;
 }
 
 /* footer section */
