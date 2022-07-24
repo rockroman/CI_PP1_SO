@@ -713,7 +713,7 @@ h3{
     gap: 15%;
     color: oldlace;
     font-family: system-ui,apple-system, Roboto, sans-serif; */
-    height: 500px;
+    height: 400px;
     /* width: 45%; */
     /* background-color: #1663a3; */
     display: flex;
@@ -789,7 +789,7 @@ textarea{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
     color: black;
     border: .5px outset;
 }
@@ -1082,16 +1082,20 @@ footer p{
         margin-bottom: 8%;
     }
     #contact-us{
-      
         display: flex;
+        flex-direction: column;
         gap: 2%;
     }
     #split-form{
         margin: 0;
         border: none;
         box-sizing: border-box;
-        max-width: 500px;
+        max-width: 900px;
+        flex-direction: row;
 
+    }
+    #side-form{
+        height: auto;
     }
     .map{
         height: 500px;
