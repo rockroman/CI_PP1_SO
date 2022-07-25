@@ -6,22 +6,18 @@
     --clr-hero-txt:#ffffff;
     --clr-hero2-txt:#0b0b25;
     --clr-header-nav-footer: #0a0a0a;
-    --clr-section-blue: #1663a3;
-    
+    --clr-section-blue: #1663a3;   
 }
+/* smooth scroll for back to top button */
 html{
-    scroll-behavior: smooth;
-
-      
+    scroll-behavior: smooth;     
 }
 
 body{
     padding:0% .6%;
     box-sizing: border-box;
     margin: 0;
-    font-family:Libre Caslon Text,Comfortaa,serif;
-   
-
+    font-family:Libre Caslon Text,serif;
 }
 
 #back_to_top{
@@ -33,13 +29,7 @@ body{
   z-index: 1200;
   font-weight: bolder;
   border: 3px solid #0e680e;
-  background-color: #01070b;
-  
-
-  
- 
- 
-  
+  background-color: #01070b; 
   
 }
 
@@ -74,16 +64,13 @@ body{
     color: var(--clr-hero-txt);
     font-weight: 540;
     padding: 5px;
-   
- 
+
 }
 .nav-link a:hover{
   text-decoration: underline;
   transform: scale(1.2);
+
 }
-
-
-
 
 /* making a sliding navigation(original idea by'Angela Delise' */
 #logo{
@@ -97,9 +84,7 @@ body{
     border-bottom: 2px solid rgb(17, 19, 19);
     position: absolute;
     width: 100%;
-    background-color: beige;
-    
-   
+    background-color: beige;  
    
 }
 .nav,label{
@@ -109,25 +94,24 @@ body{
     display: none;
 }
 
-
 .nav-toggle{
     position: absolute;
     cursor: pointer;
     margin: .2rem 1rem 1.5rem 0;
     right: 2%;
 }
+
 #bars ,#close{
     width: 1.5rem;
     font-size: 1.6rem;
     color: white;
 }
+
 #close{
     display: none;
-    color: white;
-    
-   
-    
+    color: white;    
 }
+
 #bars{
     margin-top: .2rem;
    
@@ -135,6 +119,7 @@ body{
 .nav-checkbox{
     display: none;
 }
+
 .nav-menu{
     display: flex;
     flex-direction: column;
@@ -207,6 +192,7 @@ h1{
     color:var(--clr-hero-txt);
     width: 65%;
 }
+
 /* bottom hero section is flex container it makes easier aligning button with call to action */
 .hero-bottom{
     display: flex;
@@ -216,8 +202,7 @@ h1{
 
 }
 
- #start-now{
-   
+#start-now{
     padding: 1.5% 4% ;
     border: 2px solid black;
     box-shadow: 2px 1px 3px rgb(18, 18, 165);
@@ -232,8 +217,7 @@ h1{
     height: 25px;
     position: absolute;
     right: 2%;
-    bottom: 19%;
-    
+    bottom: 19%;   
     
 }
 a#start-now{
@@ -242,8 +226,6 @@ a#start-now{
     align-items: center;
 }
 
-
-/* welcome section shows user a brief info what SURFon is about */
 #welcome-section{
     padding: .6%;
     margin-top: 0%;    
@@ -284,6 +266,7 @@ h2{
 em{
     font-weight: 800;
 }
+
 /* styling horizontal reference to clearly separate sections */
 hr{
     height: 1px;
@@ -313,7 +296,7 @@ hr{
     justify-content: center;
     flex-direction: column;
 }
-/* lessons card ,an overview of what is taught and what way */
+
 #lessons{
     padding:4% 0%;
     margin-top: 2%;
@@ -341,7 +324,6 @@ hr{
 }
 
 #camps{
-    
     padding:4% 0%;
     margin-top: 4%;
 
@@ -426,18 +408,19 @@ hr{
 }
 
 #lessons1{
-   
     padding: .5%;
     display: flex;
     flex-direction: column;
     
 }
+
 h5{
     text-align: center;
     font-size: 1.4rem;
     margin-bottom: 0px;
     text-transform: uppercase;
 }
+
 .lessons-card{
     margin-bottom: 5%;
     margin-top: 5%;
@@ -478,47 +461,45 @@ h6{
     font-size: .8rem;
 }
 
-a.start-now2{
-    
+a.start-now2{ 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
- #camps1{
+#camps1{
     margin-bottom: 5%;
     position: relative;
     height: 40vh;
  }
 
-/* carousel styling */
-  
-  .carousel {
+ /* carousel styling */
+.carousel {
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
     padding: .5%;
    
-  }
+}
   
-  .slides {
+.slides {
     width: 100%;
     display: flex;
     overflow-x: scroll;
     scrollbar-width: none;
     scroll-snap-type: x mandatory;
     /* scroll-behavior: smooth; */
-  }
+}
 
-  .slide-title{
+.slide-title{
    letter-spacing: .5px;
-  }
+}
   
-  .slides::-webkit-scrollbar {
+.slides::-webkit-scrollbar {
     display: none;
-  }
+}
   
-  .slides-item {
+.slides-item {
     align-items: center;
     border-radius: 10px;
     display: flex;
@@ -533,14 +514,14 @@ a.start-now2{
     transform-origin: center center;
     transition: transform .5s;
     width: 100%;
-  }
+}
   
-  .carousel__nav {
+.carousel__nav {
     padding: 1.25rem .5rem;
     padding-top: 0;
-  }
+}
   
-  .slider-nav {
+.slider-nav {
     align-items: center;
     background-color: #ddd;
     border-radius: 50%;
@@ -552,54 +533,53 @@ a.start-now2{
     position: relative;
     text-decoration: none;
     width: 1.5rem;
-  }
+}
   
-  .slider-nav:hover,
+.slider-nav:hover,
   .slider-nav:active {
     background-color: #000;
     color: #fff;
-  }
+}
   
-  .slide-1 {
+.slide-1 {
    background-image: url(../images/carousel-img1-small-pexels-cemal-taskiran.webp);
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
-  }
+ }
   
-  .slide-2 {
+.slide-2 {
     background-image: url(../images/carousel-img2-small-pexels-wendy-wei.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
   
-  .slide-3 {
+.slide-3 {
     background-image: url(../images/carousel-img3-small-pexels-nikita-igonkin.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     
-  }
+}
   
  
   /* GALLERY SECTION */
-  #gallery{
+#gallery{
     display: flex;
     flex-direction: column;
     padding: .4%;
-  }
+}
 
-  picture{
+picture{
     margin: 0;
-  }
+}
 
-  .item{
+.item{
     width: 100%;
     height: auto;
-  }
+}
   
-
 /* about section */
 #about-us{
     padding: .6%;
@@ -618,10 +598,6 @@ a.start-now2{
 #about-hero{
     width: 100%;
     height: auto;
-}
-
-#our-story{
-  
 }
 
 .text-story> h3{
@@ -650,7 +626,6 @@ h3{
     max-width: 450px;
 }
 
-
 #map{
     width: 100%;
     height: 100%;
@@ -658,23 +633,22 @@ h3{
    
 }
 /* our team */
-#our-team{
-    
-}
 
 #our-team > h3{
     font-size: 1.5rem;  
 }
+
 .instructor-card{
     width: 100%;
     max-width: 640px;
     margin-bottom: 20%;
 }
+
 .instructor-img{
     width: 100%;
  
-
 }
+
 .instructor-card > h4{
     color: black;
     margin-top: 0px;
@@ -692,28 +666,25 @@ h3{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-   
+
 }
 
 #contact-us{
   display: grid;
   justify-content: center;
   align-items: center;
+
 }
 
-
-
 #side-form{
-   
     height: 400px;
-    /* width: 45%; */
-    /* background-color: #1663a3; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3%;
     color: oldlace;
-    font-family: system-ui,apple-system, Roboto, sans-serif;   
+    font-family: system-ui,apple-system, Roboto, sans-serif;
+
 }
 
 .my-form{
@@ -727,6 +698,7 @@ h3{
     max-width: 450px; 
     margin: 1% 0;    
 }
+
 .form{
     font-size: 1.5rem;
     text-align: center;
@@ -735,8 +707,7 @@ h3{
 
 #full-name,
 #phone,
-#email
-{
+#email{
     width: 75%;
     box-shadow: 0px 1px 3px rgb(1, 1, 7);
     height: 1.25rem;
@@ -786,16 +757,17 @@ textarea{
     border: .5px outset;
     padding: 1%;
 }
+
 #side-form p{
     font-size: 1.25rem;
     margin-top: 15px;
     text-align: center;
     font-weight: 600;
 }
+
 #side-form i{
     font-size: 1.45rem;
 }
-
 
 /* footer section */
 footer{
@@ -820,7 +792,6 @@ footer #logo2{
     justify-content:space-evenly;
     align-items: center;
    
-
 }
 
 footer p{
@@ -861,44 +832,56 @@ footer p{
         font-size: 1.7rem;
         margin-bottom: 2%;
     }
+
     .lessons-title{
         font-size: 165%;
     }
+
     .lessons-card p{
         font-size: 1.3rem;
     }
+
     .start-now2 p{
         font-size: .8rem;
     }
+
     h5{
         font-size: 1.65rem;
     }
+
     h6{
         font-size: 1.4rem;
     }
+
     h1{
         font-size: 2.2rem;
     }
+
     h2{
         font-size:2.1rem;
     }
+
     .slide-title{
         font-size: 1.3rem;
     }
+
     .instructor-card > p{
         font-size: 1.15rem;
         max-width: 90%;
     }
+
     .instructor-card > h4{
         margin-bottom: 3%;
         text-align: left;
     }
+
     #about-us{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     #split-form{
         margin: auto;
         margin-bottom: 4%;
@@ -910,6 +893,7 @@ footer p{
     #hero{
         background-image: url(../images/hero-img-medium-pexels-saeid-anvar-835615.webp);
     }
+
     h1{
         font-size: 2.2rem;
     }
@@ -954,29 +938,31 @@ footer p{
         grid-template-columns: 45% 55%;
 
     }
+
     #side-form{
         flex-direction: row;
         height: auto;
         margin-top: 5%;
     }
+
     .my-form{
         margin: 0;
         max-width: 100%;
     }
+
    .column-span-2{
     grid-column: span 2;
    }
+
    .map{
     height: 100%;
     width: 100%;
     max-width: 100%;
    }
  
-
-
 }
 
- @media screen and (min-width:768px){
+@media screen and (min-width:768px){
    
     .nav-toggle{
         display: none;
@@ -1060,9 +1046,6 @@ footer p{
 
     }
 
-    .lessons-card{
-        
-    }
     #gallery{
         flex-direction: row;
         flex-wrap: wrap;
@@ -1097,11 +1080,10 @@ footer p{
     .instructor-card{
         margin-bottom: 8%;
     }
-  
    
  }
  
- @media screen and (min-width:920px){
+@media screen and (min-width:920px){
     .desktop-nav{
         overflow: hidden;
         position: fixed;
@@ -1146,37 +1128,40 @@ footer p{
     .social-media{
         font-size: 1.75rem;
     }
- }
+}
 
  /* page 404 style */
- .page-404{
+.page-404{
     background: url(../images/404-img-large-pexels-lisha-riabinina.jpg) center center ;
     height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
- }
+}
 
- .page-404-title{
+.page-404-title{
     width: 100%;
     font-size: 3rem;
     text-align: center;
     color: red;
- }
- .page-404-subtitle{
+}
+
+.page-404-subtitle{
     font-size: 1.7rem;
     text-align: center;
     width: 100%;
     color:white;
 
- }
- .button-container{
+}
+
+.button-container{
     
     width: 100%;
     display: flex;
     justify-content: center;
- }
- .home-btn {
+}
+
+.home-btn {
     background-color: green;
     color: var(--clr-hero-txt);
     text-decoration: none;
