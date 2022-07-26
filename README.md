@@ -151,6 +151,7 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 ### Frameworks,Libraries & Programs Used
 - Gitpod
 - GitHub
+- Bootstrap v5.0 (for 404.html)
 - Git
 - Tinypng
 - Font Awsome
@@ -163,4 +164,15 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 
 ### Logo
 - Featured in both types of navigation and in footer of a website,custom made on [looka.com](https://looka.com/)
+![logo](docs/features/)
+
+### Navigation
+- 2 different types (mobile and desktop)
+- both navigations are  intuitive ,easy to use and responsive for all screen sizes
+  hamburger menu for mobile and screens up to 768px and sticky nav-bar for screens 768px and up.
+  including links to a section of a page gives user a well understood means to easily navigate the website
+- desktop style links are underlined and scaling in size when user hoovers over them.
+![navigation](docs/features)
+
+###
 

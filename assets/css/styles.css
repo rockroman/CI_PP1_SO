@@ -676,7 +676,7 @@ h3{
 
 }
 
-#side-form{
+#bottom-form{
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -758,14 +758,14 @@ textarea{
     padding: 1%;
 }
 
-#side-form p{
+#bottom-form p{
     font-size: 1.25rem;
     margin-top: 15px;
     text-align: center;
     font-weight: 600;
 }
 
-#side-form i{
+#bottom-form i{
     font-size: 1.45rem;
 }
 
@@ -939,10 +939,10 @@ footer p{
 
     }
 
-    #side-form{
+    #bottom-form{
         flex-direction: row;
         height: auto;
-        margin-top: 5%;
+        margin-top: 5px;
     }
 
     .my-form{
