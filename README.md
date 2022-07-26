@@ -28,6 +28,8 @@
     - [Main Languages Used](#languages)
     - [Frameworks-Libraries & Programs Used](#Frameworks-Libraries-&-Programs-Used)
 5. [Features](#features)
+     - [Exsisting-features](#existing-features)
+     - [Features to implement in future](#)
 6. [Testing](#validation)
     - [HTML Validation](#HTML-validation)
     - [CSS Validation](#CSS-validation)
@@ -162,6 +164,8 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 ## Features
 <hr>
 
+### Existing Features
+
 ### Logo
 - Featured in both types of navigation and in footer of a website,custom made on [looka.com](https://looka.com/)
 ![logo](docs/features/)
@@ -172,7 +176,71 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
   hamburger menu for mobile and screens up to 768px and sticky nav-bar for screens 768px and up.
   including links to a section of a page gives user a well understood means to easily navigate the website
 - desktop style links are underlined and scaling in size when user hoovers over them.
+
 ![navigation](docs/features)
 
-###
+### Welcome and Our services section
+- Those 2 sections consist of 3 images supported by
+the paragraphs introducing user with company and services that are provided
+
+![ Welcome-and-Our-services-section](docs/features/)
+
+### Lessons cards
+- 3 cards with prices for lessons offered by company
+and call to action that takes user to contact form section
+
+![Lessons-cards](docs/features/)
+
+### Carousel
+- User is further introduced in options that are  available with images of 3 locations that lessons can take place in.
+- options to navigate the carousel images are 
+via buttons in bottom part or via swipe on devices that have touch screens.
+
+![Carousel](docs/features/)
+
+### Gallery
+- Section consist of 7 images presenting moments taken during
+lessons and free Surfing.
+- Images are aligned using Css-Flexbox.
+
+![Gallery](docs/features/)
+
+### About us 
+- More information about company followed by 
+4 cards with images of team members  and brief info 
+about their role and experience.
+
+![About us](docs/features/)
+
+### Contact us
+-User can contact the company in various ways when redirected to this section ,which consist of a contact form with embeded 
+Google map of a company location and 3 info boxes . address-box 
+phone number-box and Email-box.
+- all elements are displayed using Css-grid.
+
+![Contact us](docs/features/)
+
+### Footer
+- Consist of 3 parts: Logo of the company(linked to the top of the page).
+social media part(links to connect with company)
+trade mark part(name of developer and year project was developed)
+
+![Footer](docs/features/)
+
+
+## Features to implement in future
+<hr>
+
+### Membership section
+- to become a member will bring benefits and discounts to 
+user who chooses this option.
+
+### Blog section
+- Staff members,users or surfing enthusiasts will have a chance to share interesting stories.
+
+### Online Shop
+- Turning a website into a fully functional Surf-shop with various items would mean taking a project to another level.
+
+
+
 
