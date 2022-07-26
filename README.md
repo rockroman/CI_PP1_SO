@@ -127,8 +127,18 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 ### Wireframes
 
 ### Colour
+- simple colour pallete making website look bright and clean.
+
+![Colur](docs/features/)
 
 ### Fonts
+
+Google fonts used as follows:
+
+- Libre Caslon Text used for most of website.
+- System-ui used for contact form
+
+![Fonts](docs/features)
 
 ### Structure
 
@@ -165,6 +175,8 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 <hr>
 
 ### Existing Features
+
+### Favicon
 
 ### Logo
 - Featured in both types of navigation and in footer of a website,custom made on [looka.com](https://looka.com/)
@@ -226,6 +238,9 @@ social media part(links to connect with company)
 trade mark part(name of developer and year project was developed)
 
 ![Footer](docs/features/)
+
+### Back to top button
+- Featured on all screen sizes to assist user in having full control browsing the website content. 
 
 
 ## Features to implement in future

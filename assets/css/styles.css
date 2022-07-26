@@ -6,7 +6,8 @@
     --clr-hero-txt:#ffffff;
     --clr-hero2-txt:#0b0b25;
     --clr-header-nav-footer: #0a0a0a;
-    --clr-section-blue: #1663a3;   
+    --clr-hr-background:#bf1b34;
+    --clr-button:#056639;   
 }
 /* smooth scroll for back to top button */
 html{
@@ -28,7 +29,7 @@ body{
   color: #e8f2e8;
   z-index: 1200;
   font-weight: bolder;
-  border: 3px solid #0e680e;
+  border: 3px solid var(--clr-button);
   background-color: #01070b; 
   
 }
@@ -205,8 +206,8 @@ h1{
 #start-now{
     padding: 1.5% 4% ;
     border: 2px solid black;
-    box-shadow: 2px 1px 3px rgb(18, 18, 165);
-    background-color: rgb(5, 102, 57);
+    box-shadow: 2px 1px 3px var(--clr-navigation);
+    background-color: var(--clr-button);
     color: white;
     font-size: .8rem;
     text-decoration: none;
@@ -270,7 +271,7 @@ em{
 /* styling horizontal reference to clearly separate sections */
 hr{
     height: 1px;
-    background-color: rgb(207, 18, 18);
+    background-color:var(--clr-hr-background);
     border: 1.5px solid rgb(0, 0, 0);
     width: 90%;
     margin:5% auto;
@@ -389,7 +390,7 @@ hr{
 
 hr{
     height: 1px;
-    background-color: rgb(207, 18, 18);
+    background-color: var(--clr-hr-background);
     border: 1.5px solid rgb(0, 0, 0);
     margin-top: 40px;
 
