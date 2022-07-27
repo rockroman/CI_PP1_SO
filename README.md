@@ -180,7 +180,10 @@ Google fonts used as follows:
 
 ### Logo
 - Featured in both types of navigation and in footer of a website,custom made on [looka.com](https://looka.com/)
+- User story covered: 0
+
 ![logo](docs/features/)
+
 
 ### Navigation
 - 2 different types (mobile and desktop)
@@ -188,18 +191,21 @@ Google fonts used as follows:
   hamburger menu for mobile and screens up to 768px and sticky nav-bar for screens 768px and up.
   including links to a section of a page gives user a well understood means to easily navigate the website
 - desktop style links are underlined and scaling in size when user hoovers over them.
+- User story covered:0,7,8
 
 ![navigation](docs/features)
 
 ### Welcome and Our services section
 - Those 2 sections consist of 3 images supported by
 the paragraphs introducing user with company and services that are provided
+- User story covered:1,2,12,11
 
 ![ Welcome-and-Our-services-section](docs/features/)
 
 ### Lessons cards
 - 3 cards with prices for lessons offered by company
 and call to action that takes user to contact form section
+- User story covered:11,0,2,12
 
 ![Lessons-cards](docs/features/)
 
@@ -207,6 +213,7 @@ and call to action that takes user to contact form section
 - User is further introduced in options that are  available with images of 3 locations that lessons can take place in.
 - options to navigate the carousel images are 
 via buttons in bottom part or via swipe on devices that have touch screens.
+- User story covered:2,11
 
 ![Carousel](docs/features/)
 
@@ -214,6 +221,7 @@ via buttons in bottom part or via swipe on devices that have touch screens.
 - Section consist of 7 images presenting moments taken during
 lessons and free Surfing.
 - Images are aligned using Css-Flexbox.
+- User story covered:6,1
 
 ![Gallery](docs/features/)
 
@@ -221,6 +229,7 @@ lessons and free Surfing.
 - More information about company followed by 
 4 cards with images of team members  and brief info 
 about their role and experience.
+- User story covered:5,12,10
 
 ![About us](docs/features/)
 
@@ -229,6 +238,7 @@ about their role and experience.
 Google map of a company location and 3 info boxes . address-box 
 phone number-box and Email-box.
 - all elements are displayed using Css-grid.
+- User story covered:0,4,12,3
 
 ![Contact us](docs/features/)
 
@@ -236,11 +246,16 @@ phone number-box and Email-box.
 - Consist of 3 parts: Logo of the company(linked to the top of the page).
 social media part(links to connect with company)
 trade mark part(name of developer and year project was developed)
+- User story covered:9,12,0
 
 ![Footer](docs/features/)
 
 ### Back to top button
-- Featured on all screen sizes to assist user in having full control browsing the website content. 
+- Featured on all screen sizes to assist user in having full control browsing the website content.
+- User story covered:8,0,12
+
+![Back to top button](docs/features)
+
 
 
 ## Features to implement in future
@@ -256,6 +271,16 @@ user who chooses this option.
 ### Online Shop
 - Turning a website into a fully functional Surf-shop with various items would mean taking a project to another level.
 
+## Testing
+<hr>
 
+Testing was taken during entire development process utilizing Chrome developer tools and at the end when project was finished.
+W3C Markup Service was used to validate the HTML of the website and all code passed with no errors to show.   
+
+### HTML Validation 
+
+<details><summary>Index.html</summary>
+<img src="docs/validation/index.html-validation.jpg">
+</details>
 
 
