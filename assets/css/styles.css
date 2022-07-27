@@ -18,7 +18,7 @@ body{
     padding:0 .6%;
     box-sizing: border-box;
     margin: 0;
-    font-family:Libre Caslon Text,serif;
+    font-family:"Libre Caslon Text",serif;
 }
 
 #back_to_top{
@@ -1124,27 +1124,32 @@ footer p{
 }
 
  /* page 404 style */
+ .container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+
 .page-404{
     background-image: url(../images/404-img-pexels-para-bromas.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background-color: var(--clr-header-nav-footer);
+    flex: 1;
 }
 
 .page-404-title{
     width: 100%;
     font-size: 7rem;
+    margin-bottom: 0;
     text-align: center;
     color:rgb(211, 19, 19);
-    font-family:Ceviche One ;
+    font-family:"Ceviche One";
 }
 
 .page-404-subtitle{
     font-size: 1.7rem;
+    margin-bottom: 0;
     text-align: center;
     width: 100%;
     color:var(--clr-hero-txt);
@@ -1157,12 +1162,11 @@ footer p{
     text-align: center;
     color: bisque;
     font-size: 4rem;
-    font-family:Ceviche One ;
+    font-family:"Ceviche One";
     margin-top: 0;
 }
 
 .button-container{
-    
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1174,7 +1178,8 @@ footer p{
     text-decoration: none;
     display: block;
     border:  2px gray;
-    margin-bottom: 2%;  
+    margin-bottom: 2%;
+    padding: 10px;  
     
 }
 
@@ -1184,6 +1189,10 @@ footer p{
 
 h3 > i{
     color: white;
+}
+
+.footer{
+    margin-top: auto;
 }
 
  
