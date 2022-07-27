@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 /* setting a color palette for project with creating css variables */
 :root{
     --clr-navigation: #457b9d;
@@ -1124,18 +1125,20 @@ footer p{
 
  /* page 404 style */
 .page-404{
-    background: url(../images/404-img-large-pexels-lisha-riabinina.jpg) center center ;
+    background: url(../images/404-img-large-pexels-lisha-riabinina.webp) center center ;
     height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--clr-header-nav-footer);
 }
 
 .page-404-title{
     width: 100%;
-    font-size: 3rem;
+    font-size: 7rem;
     text-align: center;
-    color: var(--clr-hr-background);
+    color:rgb(211, 19, 19);
+    font-family:Ceviche One ;
 }
 
 .page-404-subtitle{
@@ -1143,7 +1146,17 @@ footer p{
     text-align: center;
     width: 100%;
     color:var(--clr-hero-txt);
+    font-style: oblique;
+   
 
+}
+.page-404 h2{
+    width: 100%;
+    text-align: center;
+    color: bisque;
+    font-size: 4rem;
+    font-family:Ceviche One ;
+    margin-top: 0;
 }
 
 .button-container{
@@ -1161,6 +1174,14 @@ footer p{
     border:  2px gray;
     margin-bottom: 2%;  
     
+}
+
+#nav-checkbox:checked ~ #page404-mobile{
+    height: 85vh;
+}
+
+h3 > i{
+    color: white;
 }
 
  

@@ -29,7 +29,8 @@
     - [Frameworks-Libraries & Programs Used](#Frameworks-Libraries-&-Programs-Used)
 5. [Features](#features)
      - [Exsisting-features](#existing-features)
-     - [Features to implement in future](#)
+     - [Features to implement in future](#features-to-implement-in-future)
+
 6. [Testing](#validation)
     - [HTML Validation](#HTML-validation)
     - [CSS Validation](#CSS-validation)
@@ -274,13 +275,31 @@ user who chooses this option.
 ## Testing
 <hr>
 
+### HTML Validation
+ 
 Testing was taken during entire development process utilizing Chrome developer tools and at the end when project was finished.
-W3C Markup Service was used to validate the HTML of the website and all code passed with no errors to show.   
-
-### HTML Validation 
+W3C Markup Service was used to validate the HTML of the website and all code passed with no errors to show. 
 
 <details><summary>Index.html</summary>
-<img src="docs/validation/index.html-validation.jpg">
+<img src="docs/validation/index.html-validation.jpg" alt="validation of index.html page">
 </details>
 
+<details><summary>404 page</summary>
+<img src="docs/validation/404.html-validation.jpg" alt="validation of 404.html page">
+</details>
+
+### CSS Validation
+
+The  W3C Jigsaw CSS Validation Service was used to test css code of website.this validator showed no errors.
+<details><summary>Css</summary>
+<img src="docs/validation/css-validation.jpg" alt="validation of css code">
+</details>
+
+
+### Accessibility
+
+I used  WAVE WebAIM web accessibility evaluation service to ensure the project's high standards regarding accessibility.
+<details><summary>Website</summary>
+<img src="docs/validation/wave-validator.jpg" alt="accessibility evaluation of project">
+</details>   
 
