@@ -1125,7 +1125,9 @@ footer p{
 
  /* page 404 style */
 .page-404{
-    background: url(../images/404-img-pexels-para-bromas.webp) center center ;
+    background-image: url(../images/404-img-pexels-para-bromas.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 95vh;
     display: flex;
     flex-direction: column;
