@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comfortaa:wght@500&family=Roboto+Flex&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
 /* setting a color palette for project with creating css variables */
 :root{
@@ -15,7 +14,7 @@ html{
 }
 
 body{
-    padding:0% .6%;
+    padding:0 .6%;
     box-sizing: border-box;
     margin: 0;
     font-family:Libre Caslon Text,serif;
@@ -40,14 +39,13 @@ body{
     height: 100%;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
-    margin: 0% 0% 0% 5%;
+    margin: 0 0 0 5%;
     z-index: 1200;
 }
 /* navigation for desktop style */
 .desktop-nav{
     justify-content: space-between;
     align-items: center;
-    display: flex;
     display: none;
     height: 60px;
     
@@ -77,7 +75,7 @@ body{
 #logo{
     width: 100px;
     box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
-    margin: 1% 0% 0% 5%;
+    margin: 1% 0 0 5%;
     z-index: 1200
 
 }
@@ -212,8 +210,7 @@ h1{
     font-size: .8rem;
     text-decoration: none;
     border: outset;
-    margin-bottom: -7%;
-    margin-right: 2%;
+    margin: 0 2% -7% 0;
     width: 100px;
     height: 25px;
     position: absolute;
@@ -259,7 +256,7 @@ h2{
     font-size: 1.15rem;
     padding: 2%;
     text-align: left;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
     margin: auto;
    
 }
@@ -278,7 +275,7 @@ hr{
 }
 /* our services section is giving insigt to user what SURF-ON is offering */
 #services{
-    padding: 2% 0%;
+    padding: 2% 0;
     margin: 0;
    
 }
@@ -299,7 +296,7 @@ hr{
 }
 
 #lessons{
-    padding:4% 0%;
+    padding:4% 0;
     margin-top: 2%;
 
 }
@@ -325,7 +322,7 @@ hr{
 }
 
 #camps{
-    padding:4% 0%;
+    padding:4% 0;
     margin-top: 4%;
 
 }
@@ -378,7 +375,7 @@ hr{
 #testemonial-quote{
     padding: 3%;
     border:1px solid var(--clr-hero2-txt) ;
-    margin: 6% .5% 0% .5%;
+    margin: 6% .5% 0 .5%;
     background-color: var(--clr-hero-txt);
 }
 
@@ -391,7 +388,7 @@ hr{
 hr{
     height: 1px;
     background-color: var(--clr-hr-background);
-    border: 1.5px solid rgb(0, 0, 0);
+    border: 1.5px solid var(--clr-header-nav-footer);
     margin-top: 40px;
 
 }
@@ -431,7 +428,7 @@ h5{
 }
 
 .lessons-card em{
-    color: black;
+    color:var(--clr-header-nav-footer);
     font-weight: 400;
   
 }
@@ -449,7 +446,7 @@ h6{
 .start-now2{
     padding: 2% 4% ;
     border: 2px solid black;
-    background-color: rgb(5, 102, 57);
+    background-color: var(--clr-button);
     color: white;
     font-size: .8rem;
     text-decoration: none;
@@ -651,7 +648,7 @@ h3{
 }
 
 .instructor-card > h4{
-    color: black;
+    color:var(--clr-header-nav-footer);
     margin-top: 0px;
     margin-bottom: 5%;
     font-size: 1.5rem;
@@ -710,7 +707,7 @@ h3{
 #phone,
 #email{
     width: 75%;
-    box-shadow: 0px 1px 3px rgb(1, 1, 7);
+    box-shadow: 0 1px 3px var(--clr-header-nav-footer);
     height: 1.25rem;
     padding: 2%;
     border-radius: .3rem; 
@@ -718,7 +715,7 @@ h3{
 }
 
 label{
-    color: rgb(14, 13, 13);
+    color: var(--clr-header-nav-footer);
     font-size: 1rem;
     font-weight: 700;
     padding-left: 13%;
@@ -734,9 +731,9 @@ textarea{
     width: 180px;
     height: 45px;
     margin: auto 10%;
-    background-color:#146a19;
+    background-color:var(--clr-button);
     margin-top: 3%;
-    color: rgb(255, 255, 255);
+    color: var(--clr-hero-txt);
     font-weight: 700;
     font-size: .8rem;
 }
@@ -754,7 +751,7 @@ textarea{
     align-items: center;
     flex-direction: column;
     width: 200px;
-    color: black;
+    color: var(--clr-header-nav-footer);
     border: .5px outset;
     padding: 1%;
 }
@@ -772,7 +769,7 @@ textarea{
 
 /* footer section */
 footer{
-    background-color: rgb(12, 3, 3);
+    background-color:var(--clr-header-nav-footer);
     padding: 5px;
     box-sizing: border-box;
     width: 100%;
@@ -782,7 +779,6 @@ footer{
 footer #logo2{
     width: 100px;
     border: 2px solid rgb(0, 0, 0);
-    box-shadow: inset 2px 1px 1px 0.5px rgb(0, 0, 0);
     z-index: 1200
 }
 
@@ -796,13 +792,13 @@ footer #logo2{
 }
 
 footer p{
-    color: antiquewhite;
+    color: var(--clr-hero-txt);
     font-size: 1.15rem;
     text-align: center;
 }
 
 .trade-mark{
-    color: antiquewhite; 
+    color:var(--clr-hero-txt); 
     margin-bottom: 5px;
     text-align: center;
 
@@ -815,7 +811,7 @@ footer p{
     display: flex;
     justify-content: center;
     gap: 5%;
-    color: rgba(8, 235, 23, 0.92);  
+    /* color: rgba(8, 235, 23, 0.92);   */
     
 }
 
@@ -824,7 +820,7 @@ footer p{
 }
 
 .social-media a:hover{
-    color: rgb(64, 225, 115);
+    color: var(--clr-hr-background);
 }
 
 /* media queries */
@@ -891,10 +887,6 @@ footer p{
 }
 
 @media screen and (min-width:620px){
-    #hero{
-        background-image: url(../images/hero-img-medium-pexels-saeid-anvar-835615.webp);
-    }
-
     h1{
         font-size: 2.2rem;
     }
@@ -992,10 +984,7 @@ footer p{
     #logo1{
         border: none;
     }
-    #hero{
-        background-image: url(../images/hero-img-desktop-pexels-saeid-anvar-.webp);
-    }
-
+    
     #welcome-message{
         flex-direction: row;
         justify-content: space-between;
@@ -1004,7 +993,7 @@ footer p{
     }
 
     #welcome-message > img{
-        width:50% ;
+        width:50%;
         max-width: 850px;
         border-style: none;
         margin-bottom: 0;
@@ -1096,6 +1085,7 @@ footer p{
         gap: 6%;
     }
     #hero{
+        background-image: url(../images/hero-img-desktop-pexels-saeid-anvar-.webp);
         background-position-y:.1px;
         height: 82vh;
     }
@@ -1145,14 +1135,14 @@ footer p{
     width: 100%;
     font-size: 3rem;
     text-align: center;
-    color: red;
+    color: var(--clr-hr-background);
 }
 
 .page-404-subtitle{
     font-size: 1.7rem;
     text-align: center;
     width: 100%;
-    color:white;
+    color:var(--clr-hero-txt);
 
 }
 
@@ -1164,7 +1154,7 @@ footer p{
 }
 
 .home-btn {
-    background-color: green;
+    background-color: var(--clr-button);
     color: var(--clr-hero-txt);
     text-decoration: none;
     display: block;
