@@ -311,9 +311,9 @@ The  W3C Jigsaw CSS Validation Service was used to test css code of website.this
 
 I used  WAVE WebAIM web accessibility evaluation service to ensure the project's high standards regarding accessibility.
 <details><summary>Website</summary>
-<img src="docs/validation/wave-validator.jpg" alt="accessibility evaluation of website">
+<img src="docs/validation/wave-website.png" alt="accessibility evaluation of website">
 </details>
 <details><summary>404-page</summary>
-<img src="docs/validation/404.html-wave-validation.jpg" alt="accessibility evaluation of 404.page">
+<img src="docs/validation/wave-404-page.png" alt="accessibility evaluation of 404.page">
 </details>
 
