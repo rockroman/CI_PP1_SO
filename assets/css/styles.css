@@ -805,6 +805,11 @@ footer p{
 
 }
 
+.trade-mark >a{
+    text-decoration: none;
+    color: white;
+}
+
 .social-media{
     font-size: 1.5rem;
     margin-top: 1%;
@@ -1187,8 +1192,8 @@ footer p{
     height: 85vh;
 }
 
-h3 > i{
-    color: white;
+h3 > span{
+    font-size: 3rem;
 }
 
 .footer{

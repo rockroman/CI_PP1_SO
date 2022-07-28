@@ -164,13 +164,14 @@ Google fonts used as follows:
 ### Frameworks,Libraries & Programs Used
 - Gitpod
 - GitHub
-- Bootstrap v5.0 (for 404.html)
 - Git
 - Tinypng
 - Font Awsome
 - Balsamiq
-- Coolorsd
+- Coolors
 - Google Fonts
+- looka.com
+- Jpg. to Webp converter
 
 ## Features
 <hr>
