@@ -20,7 +20,7 @@
 3. [Design](#design)
     - [ Chosen Design](#chosen-design)
     - [Wireframes](#wireframes)
-    - [Color](#colors)
+    - [Colour](#colours)
     - [Fonts](#fonts)
     - [Structure](#structure)
     
@@ -130,16 +130,20 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 ### Colour
 - simple colour pallete making website look bright and clean.
 
-![Colur](docs/features/)
+![Colour](docs/features/color-pallete.jpg)
 
 ### Fonts
 
 Google fonts used as follows:
 
-- Libre Caslon Text used for most of website.
-- System-ui used for contact form
+- Libre Caslon Text font used for most of website.
+applied via @import method to CSS file,i picked this font cause it was specifically tailored to be used for web body text and it can be used at very small sizes and will still be readable 
 
-![Fonts](docs/features)
+![Libre Caslon Text](docs/features/fonts-Libre-Caslon.jpg)
+
+-  System-ui font used for contact form.Imported also via @import method to CSS file and picked this generic font family cause its high readability.
+
+![System-ui font](docs/features/font-system-ui.jpg)
 
 ### Structure
 
@@ -179,12 +183,16 @@ Google fonts used as follows:
 ### Existing Features
 
 ### Favicon
+- small icon or collection of icons associated with a website, web page, or web application in this case i took a custom made company logo
+
+![Favicon](assets/images/favicon-32x32.png)
+ 
 
 ### Logo
 - Featured in both types of navigation and in footer of a website,custom made on [looka.com](https://looka.com/)
 - User story covered: 0
 
-![logo](docs/features/)
+![logo](/assets/images/surf-logo1.jpg)
 
 
 ### Navigation
@@ -195,14 +203,16 @@ Google fonts used as follows:
 - desktop style links are underlined and scaling in size when user hoovers over them.
 - User story covered:0,7,8
 
-![navigation](docs/features)
+![navigation](docs/features/navigation.png)
+![navigation](docs/features/navigation-mobile.jpg)
 
 ### Welcome and Our services section
 - Those 2 sections consist of 3 images supported by
 the paragraphs introducing user with company and services that are provided
 - User story covered:1,2,12,11
 
-![ Welcome-and-Our-services-section](docs/features/)
+![ Welcome-and-Our-services-section](docs/features/welcome-section.png)
+![ Welcome-and-Our-services-section](docs/features/our-services-section.png)
 
 ### Lessons cards
 - 3 cards with prices for lessons offered by company
@@ -301,6 +311,9 @@ The  W3C Jigsaw CSS Validation Service was used to test css code of website.this
 
 I used  WAVE WebAIM web accessibility evaluation service to ensure the project's high standards regarding accessibility.
 <details><summary>Website</summary>
-<img src="docs/validation/wave-validator.jpg" alt="accessibility evaluation of project">
-</details>   
+<img src="docs/validation/wave-validator.jpg" alt="accessibility evaluation of website">
+</details>
+<details><summary>404-page</summary>
+<img src="docs/validation/404.html-wave-validation.jpg" alt="accessibility evaluation of 404.page">
+</details>
 
