@@ -219,7 +219,7 @@ the paragraphs introducing user with company and services that are provided
 and call to action that takes user to contact form section
 - User story covered:11,0,2,12
 
-![Lessons-cards](docs/features/)
+![Lessons-cards](docs/features/lessons-section.png)
 
 ### Carousel
 - User is further introduced in options that are  available with images of 3 locations that lessons can take place in.
@@ -227,15 +227,15 @@ and call to action that takes user to contact form section
 via buttons in bottom part or via swipe on devices that have touch screens.
 - User story covered:2,11
 
-![Carousel](docs/features/)
+![Carousel](docs/features/carousel-section.png)
 
 ### Gallery
-- Section consist of 7 images presenting moments taken during
+- Section consist of 8 images presenting moments taken during
 lessons and free Surfing.
 - Images are aligned using Css-Flexbox.
 - User story covered:6,1
 
-![Gallery](docs/features/)
+![Gallery](docs/features/gallery-section1.png) ![Gallery](docs/features/gallery-section2.png)
 
 ### About us 
 - More information about company followed by 
@@ -243,7 +243,7 @@ lessons and free Surfing.
 about their role and experience.
 - User story covered:5,12,10
 
-![About us](docs/features/)
+![About us](docs/features/about-us-section.png) ![About us](docs/features/about-us2-section.png)
 
 ### Contact us
 -User can contact the company in various ways when redirected to this section ,which consist of a contact form with embeded 
@@ -252,7 +252,7 @@ phone number-box and Email-box.
 - all elements are displayed using Css-grid.
 - User story covered:0,4,12,3
 
-![Contact us](docs/features/)
+![Contact us](docs/features/contact-us-section.png)
 
 ### Footer
 - Consist of 3 parts: Logo of the company(linked to the top of the page).
@@ -260,13 +260,13 @@ social media part(links to connect with company)
 trade mark part(name of developer and year project was developed)
 - User story covered:9,12,0
 
-![Footer](docs/features/)
+![Footer](docs/features/footer-section.png)
 
 ### Back to top button
 - Featured on all screen sizes to assist user in having full control browsing the website content.
 - User story covered:8,0,12
 
-![Back to top button](docs/features)
+![Back to top button](docs/features/back-to-top.png)
 
 
 
