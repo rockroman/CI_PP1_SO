@@ -36,7 +36,7 @@
     - [CSS Validation](#CSS-validation)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
-    - [Device testing](#performing-tests-on-various-devices)
+    - [Device testing](#performing-tests-on-devices)
     - [Browser compatibility](#browser-compatability)
     - [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
@@ -217,7 +217,7 @@ the paragraphs introducing user with company and services that are provided
 ### Lessons cards
 - 3 cards with prices for lessons offered by company
 and call to action that takes user to contact form section
-- User story covered:11,0,2,12
+- User story covered:1,11,0,2,12
 
 ![Lessons-cards](docs/features/lessons-section.png)
 
@@ -225,7 +225,7 @@ and call to action that takes user to contact form section
 - User is further introduced in options that are  available with images of 3 locations that lessons can take place in.
 - options to navigate the carousel images are 
 via buttons in bottom part or via swipe on devices that have touch screens.
-- User story covered:2,11
+- User story covered:1,2,11
 
 ![Carousel](docs/features/carousel-section.png)
 
@@ -299,6 +299,8 @@ W3C Markup Service was used to validate the HTML of the website and all code pas
 <img src="docs/validation/404.html-validation.jpg" alt="validation of 404.html page">
 </details>
 
+
+
 ### CSS Validation
 
 The  W3C Jigsaw CSS Validation Service was used to test css code of website.this validator showed no errors.
@@ -317,3 +319,54 @@ I used  WAVE WebAIM web accessibility evaluation service to ensure the project's
 <img src="docs/validation/wave-404-page.png" alt="accessibility evaluation of 404.page">
 </details>
 
+### Performance
+I used Google Lighthouse in Google Chrome Developer Tools to test the performance of the project.
+
+<details><summary>Website-mobile</summary>
+<img src="docs/validation/website-mobile-lighthouse-report.png">
+</details>
+<details><summary>Website-desktop</summary>
+<img src="docs/validation/website-desktop-lighthouse-report.png">
+</details>
+<details><summary>404.page-mobile</summary>
+<img src="docs/validation/lighthouse-404-mobile.png">
+</details>
+<details><summary>404.page-desktop</summary>
+<img src="docs/validation/lighthouse-404-desktop.png">
+</details>
+
+### Performing tests on  devices 
+- Lenovo ideaPad3 14ADA05
+- Samsung A52 5g
+- Iphone 
+- Huawei P20 Lite
+- Ipad 2020
+ 
+ ### Browser compatability 
+ - Project was developed in Google Chrome browser
+ then tested in:
+ - Microsoft Egde
+ - Mozilla Firefox
+
+ ### Testing user stories
+
+ 0. As a New User,i want to easily to navigate the entire website intuitively.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Navigation                    | first Section nav-bar or "hamburger"menu.navigate to any section of a page | user taken to desired section | Working as expected             |
+|   back to top button                            | Always in bottom right corner of a screen.User taken to top of the page                      | Jump to top of the page| Working as expected|
+|   Contact Us Section                     |Above footer. User Click to contact and submit message and details               | Successfully contact the company and submit message and details.|Working as expected |
+|   Footer                              | Bottom of a website.navigate and connect via social networks    |More ways for User to interact and connect with company| Working as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+1. As a New User,i want to know what the company offers.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|Lesson cards|Navigate to section,see option available and take action with a click|User can take action|Working as expected|
+| Image Carousel|Click to see what camps are in offer|User can scroll or swipe to find suitable camp|Working as expected|
+| Gallery|Navigate to Gallery section|take closer look at images,and get better insight into some moments|Working as expected
