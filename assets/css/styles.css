@@ -918,20 +918,24 @@ footer p{
     h6{
         margin-top: 30px;
     }
+    .slide-title{
+        position: absolute;
+        top: 40px;
+    }
     .slides-item{
         height: 80vh;
     }
     .slide-1{
         background-image: url(../images/carousel-img1-medium-pexels-cemal-taskiran.webp);
-        background-position-y: 45px;
+        background-position-y: 105px;
     }
     .slide-2{
         background-image: url(../images/carousel-img2-medium-pexels-wendy-wei.webp);
-        background-position-y: 45px;
+        background-position-y: 105px;
     }
     .slide-3{
         background-image: url(../images/carousel-img3-medium-pexels-nikita-igonkin.webp);
-        background-position-y: 45px;
+        background-position-y: 105px;
     }
     #contact-us{
         grid-template-columns: 45% 55%;
@@ -1116,7 +1120,7 @@ footer p{
         scroll-margin-top: 10px;
     }
     #lesson{
-        scroll-margin-top: 80px; 
+        scroll-margin-top: 70px; 
     }
     
     footer p{
