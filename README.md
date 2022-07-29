@@ -369,4 +369,143 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
 |Lesson cards|Navigate to section,see option available and take action with a click|User can take action|Working as expected|
 | Image Carousel|Click to see what camps are in offer|User can scroll or swipe to find suitable camp|Working as expected|
-| Gallery|Navigate to Gallery section|take closer look at images,and get better insight into some moments|Working as expected
+| Gallery|Navigate to Gallery section|take closer look at images,and get better insight into some moments|Working as expected|
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+2. As a New User,i want to know the price of the services that company offers. 
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+3.As a New User,i want to know the best and quickest way to contact the company. 
+
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+4. As a New User,i want to know where the company is located.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+5. As a New User,i want to know how long does the company exists.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+6. As a New User,i want to know what does it look like to use one or more of the services.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+7. As a returning user,i need the information im looking for to be easy to find as i remeber. 
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+8. As a returning user,i want to always be no more than 3 clicks away from contacting the company or returning to a starting position. 
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+9. As a returning user,i want to find and connect with company on social media.
+
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+10. As a returning user, i want to know more about the team that will possibly train me.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+11. As a returning user,i want to see all options that are avaliable to me.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+12. As a returning user,i want to be pleased with website functionality so i can recommend it to my friends
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+## Bugs
+
+***
+
+1.  Empty links Error in vawe wave validator.(Social media links in footer are empty since i used Font awsome icons)
+ - Solution :(Add "aria-label" to links) ,helping assistive technologies and If the information is important making it visible for all users.
+
+2. User can input negative number in phone-number input field.
+ - Solution:("oninput="validity.valid||(value='')").after reasrching found solution on Stack Overflow.(it prevents inputing and pasting of negative numbers)
+
+3. More than one space between words in paragraph,randomly.
+- Solution:(remove "text-align=justify").Solved with trial and error method
+<details><summary>Bug</summary>
+<img src="assets/images/bug-3.png">
+</details>
+<details><summary>Bug-solved</summary>
+<img src="assets/images/bug-3-solved.png">
+</details>
+
+4. Empty label on Mobile navigation(Validator was giving error for empty label.since code was taken from a website and it used labels for checkbox required for navigation and original code for label was empty)
+- Solution:(I added 'span' element with text inside and set it to 'display:none') 
+
