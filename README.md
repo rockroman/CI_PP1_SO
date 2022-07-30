@@ -540,8 +540,25 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 ### Deploying on GitHub pages
 By following these steps Github Pages was used to deploy the live website:
 1. Log in (or sign up) to Github.
-2. In the GitHub repository of project navigate to the Settings tab.
+2. In the GitHub repository of project [CI_PP1_SO](https://rockroman.github.io/CI_PP1_SO/) navigate to the Settings tab.
 3. Click on the Pages link in the left hand side navigation bar.
 4. Navigate to  Source section and select Branch: master.
 5. Click Save and  after the webpage refreshes automaticaly  on the top of the page ribbon will appear to
 notify you that:'Your site is published at https://rockroman.github.io/CI_PP1_SO/'
+
+### Local Development
+
+#### How to Fork
+ to fork the project repository you can follow these steps:
+ 1. navigate to project GitHub repository [CI_PP1_SO](https://rockroman.github.io/CI_PP1_SO/)
+ 2. navigate to upper right hand corner to "fork" section button and click on it
+ 
+ #### How to Clone
+
+You can clone the [CI_PP1_SO](https://rockroman.github.io/CI_PP1_SO/) repository in these steps:
+1. navigate to project GitHub repository [CI_PP1_SO](https://rockroman.github.io/CI_PP1_SO/)
+2. Find Code button and click on it
+3. Select from the options to clone using  HTTPS, SSH, or Github CLI and with copy button copy the link shown to your clipboard. 
+4. Open the terminal and  change the current working directory to desired location you want to use for the cloned directory.
+5. Into the terminal type:'git clone' and paste the URL link you saved ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+6. Hit enter to create your local clone.
