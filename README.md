@@ -40,8 +40,11 @@
     - [Browser compatibility](#browser-compatability)
     - [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
-9. [Deployment](#deployment)
+9. [Deployment](#Deployment)
    - [Deploying on GitHub pages](#GitHub)
+   - [Local Development](#Local-Development)
+     * [How to Fork](#How-to-Fork)
+     * [How to Clone](#How-to-Clone) 
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
@@ -507,5 +510,38 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 </details>
 
 4. Empty label on Mobile navigation(Validator was giving error for empty label.since code was taken from a website and it used labels for checkbox required for navigation and original code for label was empty)
-- Solution:(I added 'span' element with text inside and set it to 'display:none') 
+- Solution:(I added 'span' element with text inside and set it to 'display:none') found solution after going trough Stack-Overflow. 
 
+5. Wave validator Contrast error on H1 text in hero section(validator was picking up backgroun colour from body element)
+- Solution: (add 'background-color:black' to hero section) bug solved with trial and error method.
+6. Desktop navigation covering section title(when user navigate to desired section fixed nav-bar was covering section title)
+- Solution(Add 'scroll-margin-top' to link id).bug solved going trough Stack Overflow and on suggestion from 
+  [Simen Daehlin](https://github.com/Eventyret).
+
+<details><summary>Bug</summary>
+<img src="assets/images/bug-6.png">
+</details>
+<details><summary>Bug-solved</summary>
+<img src="assets/images/bug-6-solved.png">
+</details>
+
+7. When scrolling trough image carousel image would scroll up and  hide title of the camp image.
+- Solution:(I added 'background-position-y:105px' to background image container and absolute positioned the camp image title.)
+<details><summary>Bug</summary>
+<img src="assets/images/bug-7.png">
+</details>
+<details><summary>Bug-solved</summary>
+<img src="assets/images/bug-7-solved.png">
+</details
+
+## Deployment
+
+***
+### Deploying on GitHub pages
+By following these steps Github Pages was used to deploy the live website:
+1. Log in (or sign up) to Github.
+2. In the GitHub repository of project navigate to the Settings tab.
+3. Click on the Pages link in the left hand side navigation bar.
+4. Navigate to  Source section and select Branch: master.
+5. Click Save and  after the webpage refreshes automaticaly  on the top of the page ribbon will appear to
+notify you that:'Your site is published at https://rockroman.github.io/CI_PP1_SO/'
