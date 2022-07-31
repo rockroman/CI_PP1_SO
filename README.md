@@ -20,13 +20,13 @@
 3. [Design](#design)
     - [ Chosen Design](#chosen-design)
     - [Wireframes](#wireframes)
-    - [Colour](#colours)
+    - [Colour](#colour)
     - [Fonts](#fonts)
     - [Structure](#structure)
     
 4. [Technologies Used](#technologies-used)
     - [Main Languages Used](#languages)
-    - [Frameworks-Libraries & Programs Used](#Frameworks-Libraries-&-Programs-Used)
+    - [Frameworks Libraries & Programs Used](#Frameworks-Libraries)
 5. [Features](#features)
      - [Exsisting-features](#existing-features)
      - [Features to implement in future](#features-to-implement-in-future)
@@ -168,7 +168,7 @@ applied via @import method to CSS file,i picked this font cause it was specifica
 - HTML5
 - CSS
 
-### Frameworks,Libraries & Programs Used
+### Frameworks Libraries & Programs Used
 - Gitpod
 - GitHub
 - Git
@@ -382,10 +382,10 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Lessons cards|Navigate to section,see option available and price for it ,then take an action and click on desired option|See the range of prices|Working as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-story-2.jpg">
 </details>
 
 3.As a New User,i want to know the best and quickest way to contact the company. 
@@ -393,10 +393,10 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Contact us section|Scroll to desired section|User can se options to contact company so he can choose one|Working as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-story-3.jpg">
 </details>
 
 4. As a New User,i want to know where the company is located.
