@@ -363,7 +363,10 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 |   Footer                              | Bottom of a website.navigate and connect via social networks    |More ways for User to interact and connect with company| Working as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-0-a.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-story/user-stories-0-b.jpg">
 </details>
 
 1. As a New User,i want to know what the company offers.
@@ -375,7 +378,13 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 | Gallery|Navigate to Gallery section|take closer look at images,and get better insight into some moments|Working as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-story1-a.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-story/user-story1-b.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-story/user-story-2.jpg">
 </details>
 
 2. As a New User,i want to know the price of the services that company offers. 
@@ -403,50 +412,50 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Contact us section with google map|User can click to see exact location |see precise location of company on a map,and address in info box below map|Working as expected| 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-4.jpg">
 </details>
 
 5. As a New User,i want to know how long does the company exists.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|About us section|Navigate to About us section|User can read breef info about company|Working as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-5.jpg">
 </details>
 
-6. As a New User,i want to know what does it look like to use one or more of the services.
+6. As a New User,i want to know what does it look like to use one or more of the services company offers.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+| Gallery|Navigate to image gallery and browse trough images|User can get more insight how it looks to use some services|Working as expected| 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-6.jpg">
 </details>
 
 7. As a returning user,i need the information im looking for to be easy to find as i remeber. 
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Navigation|Use navigation for browsing trough website|User can easily and  intuitively navigate to desired section|Working as expected| 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-7.jpg">
 </details>
 
 8. As a returning user,i want to always be no more than 3 clicks away from contacting the company or returning to a starting position. 
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Back to top button|Click and go to top of the page|User can in every moment be taken to top of the page(starting position)|Working as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-0-b.jpg">
 </details>
 
 9. As a returning user,i want to find and connect with company on social media.
@@ -454,41 +463,51 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Footer|Navigate to footer section and click on any social media icons|User taken to preferred  a social media platform|Working as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-9.jpg">
 </details>
 
 10. As a returning user, i want to know more about the team that will possibly train me.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|About as section with our team cards|Scroll to about us section and get more info on team|User can read more about our team members|Working as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-10.jpg">
 </details>
+
 
 11. As a returning user,i want to see all options that are avaliable to me.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Welcome and Our services section|Navigate to Welcome and Our services section|User can get again familiar with available options|Working as expected| 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-11.jpg">
 </details>
 
 12. As a returning user,i want to be pleased with website functionality so i can recommend it to my friends
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-
+|Navigation|Browse troughout the website|User friendly and intuitive navigation system|Working as expected| 
+|Lessons card|Scroll and pick the option|Relevant,short and up to date information|Working as expected| 
+|Footer|Click and connect|incentive to connect at the end of a website|Working as expected| 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story/user-stories-0-a.jpg">
 </details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-story/user-story-2.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="docs/user-story/user-stories-9.jpg">
+</details>
+
 
 ## Bugs
 
