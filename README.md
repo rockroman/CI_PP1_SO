@@ -9,7 +9,7 @@
 
 ## Table of Content
 #
-0. [introduction](introduction)
+0. [introduction](#introduction)
 1. [Project Goals](#project-goals)
     - [User Goals](#user-goals)
     - [Company Goals](#company-goals)
@@ -26,25 +26,25 @@
     
 4. [Technologies Used](#technologies-used)
     - [Main Languages Used](#languages)
-    - [Frameworks Libraries & Programs Used](#Frameworks-Libraries)
+    - [Frameworks Libraries & Programs Used](#frameworks-libraries--programs-used)
 5. [Features](#features)
      - [Exsisting-features](#existing-features)
      - [Features to implement in future](#features-to-implement-in-future)
 
 6. [Testing](#validation)
-    - [HTML Validation](#HTML-validation)
-    - [CSS Validation](#CSS-validation)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
-    - [Device testing](#performing-tests-on-devices)
+    - [Device testing](#device-testing)
     - [Browser compatibility](#browser-compatability)
     - [Testing user stories](#testing-user-stories)
-8. [Bugs](#Bugs)
-9. [Deployment](#Deployment)
-   - [Deploying on GitHub pages](#GitHub)
-   - [Local Development](#Local-Development)
-     * [How to Fork](#How-to-Fork)
-     * [How to Clone](#How-to-Clone) 
+8. [Bugs](#bugs)
+9. [Deployment](#deployment)
+   - [Deploying on GitHub pages](#deploying-on-github-pages)
+   - [Local Development](#local-development)
+     * [How to Fork](#how-to-fork)
+     * [How to Clone](#how-to-clone) 
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
@@ -338,7 +338,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/validation/lighthouse-404-desktop.png">
 </details>
 
-### Performing tests on  devices 
+### Device testing
 - Lenovo ideaPad3 14ADA05
 - Samsung A52 5g
 - Iphone 
@@ -513,7 +513,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 ***
 
-1.  Empty links Error in vawe wave validator.(Social media links in footer are empty since i used Font awsome icons)
+1.  Empty links Error in  wave validator.(Social media links in footer are empty since i used Font awsome icons)
  - Solution :(Add "aria-label" to links) ,helping assistive technologies and If the information is important making it visible for all users.
 
 2. User can input negative number in phone-number input field.
@@ -551,7 +551,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 </details>
 <details><summary>Bug-solved</summary>
 <img src="assets/images/bug-7-solved.png">
-</details
+</details>
 
 ## Deployment
 
@@ -581,3 +581,31 @@ You can clone the [CI_PP1_SO](https://rockroman.github.io/CI_PP1_SO/) repository
 4. Open the terminal and  change the current working directory to desired location you want to use for the cloned directory.
 5. Into the terminal type:'git clone' and paste the URL link you saved ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 6. Hit enter to create your local clone.
+
+## Credits
+
+***
+### Media
+Images:
+- [hero-img](assets/images/hero-img-medium-pexels-saeid-anvar.webp): photo by <a href="https://www.pexels.com/@indeedsaeed/">Saeid Anvar </a> on <a href="https://www.pexels.com/">Pexels</a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+- [](): photo by <a href=""></a> on <a href=""></a>
+## Acknowledgements
+
+***
+I would like to take a few moments to say Thank you to following people:
+- First i would like to thank my wife Una and my daughter Tara for continuous support and understanding
+while working on development of this project.
+- Then i would like to thank my Mentor Mo.Shami for his support ,insight expertise and guidance.
+- Then i would like to thank Mike Murtagh who supported and encouraged my enrollment into this programm.
+- Simen Daehlin for taking time to give some excellent feedback.
+- Kera Cudmore for taking time to review my work.
+- Awsome Code Institute Slack community for beeing there 
