@@ -5,7 +5,7 @@
 
 ![Mockup image](docs/am-i-responsive-img.png)
 
-[Live webpage](https://rockroman.github.io/CI_PP1_SO/)
+[SURF-ON>>>Live webpage](https://rockroman.github.io/CI_PP1_SO/)
 
 ## Table of Content
 #
@@ -83,6 +83,9 @@ is use of HTML and CSS in creating fully responsive website with minimum 3 pages
 - Ensure to have a clear distinction from competitors
 - Bring value to client and market
 
+
+[Back to top &uarr;](#surf-on)
+
 ## User Experience(UX)
 <hr>
 
@@ -121,7 +124,10 @@ Preffered type of user who would benefit from visiting this website and vice ver
 11. As a returning user,i want to see all options that are avaliable to me.
 12. As a returning user,i want to be pleased with website  functionality so i can recommend it to my friends
 
+[Back to top &uarr;](#surf-on)
+
 ## Design
+<hr>
 
 ### Chosen design
 
@@ -134,6 +140,7 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 
 - [Mobile-wireframes(pdf)](docs/wireframes/SO_mobile_wireframe.pdf)
 - [Tablet-wireframes(pdf)](docs/wireframes/SO_tablet_wireframe.pdf)
+- [Desktop-wireframes(pdf)](docs/wireframes/SO_desktop_wireframe.pdf)
 
 
 ### Colour
@@ -152,7 +159,7 @@ applied via @import method to CSS file,i picked this font cause it was specifica
 
 -  System-ui font used for contact form.Imported also via @import method to CSS file and picked this generic font family cause its high readability.
 
-![System-ui font](docs/features/font-system-ui.jpg)
+![System-ui font](docs/features/fonts-system-ui.png)
 
 ### Structure
 
@@ -185,6 +192,8 @@ applied via @import method to CSS file,i picked this font cause it was specifica
 - Google Fonts
 - looka.com
 - Jpg. to Webp converter
+
+[Back to top &uarr;](#surf-on)
 
 ## Features
 <hr>
@@ -308,7 +317,7 @@ W3C Markup Service was used to validate the HTML of the website and all code pas
 <img src="docs/validation/404.html-validation.jpg" alt="validation of 404.html page">
 </details>
 
-
+[Back to top &uarr;](#surf-on)
 
 ### CSS Validation
 
@@ -356,6 +365,8 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
  then tested in:
  - Microsoft Egde
  - Mozilla Firefox
+
+ [Back to top &uarr;](#surf-on)
 
  ### Testing user stories
 
@@ -514,6 +525,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/user-story/user-stories-9.jpg">
 </details>
 
+[Back to top &uarr;](#surf-on)
 
 ## Bugs
 
@@ -588,6 +600,8 @@ You can clone the [CI_PP1_SO](https://rockroman.github.io/CI_PP1_SO/) repository
 5. Into the terminal type:'git clone' and paste the URL link you saved ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 6. Hit enter to create your local clone.
 
+[Back to top &uarr;](#surf-on)
+
 ## Credits
 
 ***
@@ -604,6 +618,14 @@ Images:
 - [](): photo by <a href=""></a> on <a href=""></a>
 - [](): photo by <a href=""></a> on <a href=""></a>
 - [](): photo by <a href=""></a> on <a href=""></a>
+
+### code:
+- [looka.com](https://looka.com/) website was used to custom build logo for the project.
+- Flexbox and Css grid was implemented after studying from [Kevin Powell's](https://www.youtube.com/results?search_query=kevin+powell) video tutorials
+- carousel code was created by "Jennifer Wjertzoch"  taken from [this-website](https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b) and modified to fit this project 
+- 404 page was developed using steps and description from [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
+[Back to top &uarr;](#surf-on)
 ## Acknowledgements
 
 ***
