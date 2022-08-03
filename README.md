@@ -130,6 +130,11 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 
 ### Wireframes
 
+***
+
+[mobile-wireframes](docs/wireframes/SO_mobile_wireframe.pdf)
+
+
 ### Colour
 - simple colour pallete making website look bright and clean.
 
