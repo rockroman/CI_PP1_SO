@@ -132,7 +132,8 @@ body with some vivid sharp images of sea and seaside scenery visualy appealing a
 
 ***
 
-[mobile-wireframes](docs/wireframes/SO_mobile_wireframe.pdf)
+[Mobile-wireframes(pdf)](docs/wireframes/SO_mobile_wireframe.pdf)
+![Tablet-wireframes(pdf)](docs/wireframes/SO_tablet_wireframe.pdf)
 
 
 ### Colour
