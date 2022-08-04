@@ -264,7 +264,7 @@ about their role and experience.
 ![About us](docs/features/about-us-section.png) ![About us](docs/features/about-us2-section.png)
 
 ### Contact us
--User can contact the company in various ways when redirected to this section ,which consist of a contact form with embeded 
+- User can contact the company in various ways when redirected to this section ,which consist of a contact form with embeded 
 Google map of a company location and 3 info boxes . address-box 
 phone number-box and Email-box.
 - all elements are displayed using Css-grid.
@@ -608,16 +608,35 @@ You can clone the [CI_PP1_SO](https://rockroman.github.io/CI_PP1_SO/) repository
 ### Media
 Images:
 - [hero-img](assets/images/hero-img-medium-pexels-saeid-anvar.webp): photo by <a href="https://www.pexels.com/@indeedsaeed/">Saeid Anvar </a> on <a href="https://www.pexels.com/">Pexels</a>
-- [](): photo by <a href=""></a> on <a href=""></a>
-- [](): photo by <a href=""></a> on <a href=""></a>
-- [](): photo by <a href=""></a> on <a href=""></a>
-- [](): photo by <a href=""></a> on <a href=""></a>
-- [](): photo by <a href=""></a> on <a href=""></a>
-- [](): photo by <a href=""></a> on <a href=""></a>
-- [](): photo by <a href=""></a> on <a href=""></a>
-- [](): photo by <a href=""></a> on <a href=""></a>
-- [](): photo by <a href=""></a> on <a href=""></a>
-- [](): photo by <a href=""></a> on <a href=""></a>
+- [Welcome-section-img](assets/images/2-surfers-welcome-img-pexels.webp): photo by <a href="https://www.pexels.com/@mantoine/">Marc Roy</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [Our-lessons-img](assets/images/lessons-img-mobile-pexels.webp): photo by <a href="https://www.pexels.com/@alexa-fernando-1335156/">Alexa Fernando</a> on <a href="">Pexels</a>
+- [Irish-camp-img](assets/images/camp-irish_camp-img-pexels.webp): photo by <a href="Magda Ehlers"></a> on <a href="https://www.pexels.com/">Pexels</a>
+- [Rental-img](assets/images/rental-img-small-unsplash.webp): photo by <a href="Nareeta Martin
+"></a> on <a href="https://unsplash.com/">Unsplash</a>
+- [Carousel-img1](assets/images/carousel-img1-small-pexels-cemal-taskiran.webp): photo by <a href="https://www.pexels.com/@cemal-taskiran-420171/">Cemal Taskiran</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [Carousel-img2](assets/images/carousel-img2-small-pexels-wendy-wei.webp): photo by <a href="https://www.pexels.com/@wendywei/">Wendy Wei</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [Carousel-img3](assets/images/carousel-img3-small-pexels-nikita-igonkin.webp): photo by <a href="https://www.pexels.com/@igonkin/">Nikita Igonkin</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [gallery-img1](assets/images/gallery-img1-small-ting-tse-wang-unsplash.webp): photo by <a href="https://unsplash.com/@kwjko">Ting Tse Wang
+</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [gallery-img2](assets/images/gallery-img2-small-andrew-davie-unsplash.webp): photo by <a href="https://unsplash.com/@dendydarma">Dendy Darma Satyazi
+</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [gallery-img3](assets/images/gallery-img3-small-sara-garnica-unsplash.webp): photo by <a href="https://unsplash.com/@saragarnicar">Sara Garnica
+</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [gallery-img4](assets/images/gallesry-img-4-small-guy-kawasaki-unsplash.webp): photo by <a href="https://unsplash.com/@guykawasaki">Guy Kawasaki
+</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [gallery-img5](assets/images/gallery-img5-small-matthew-hume-unsplash.webp): photo by <a href="https://unsplash.com/@matthewhume">Matthew Hume
+</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [gallery-img6](assets/images/gallery-img6-small-pexels-guy-kawasaki.webp): photo by <a href="https://unsplash.com/@guykawasaki">Guy Kawasaki</a> on <a href="">Unsplash</a>
+- [gallery-img7](assets/images/gallery-img7-small-pexels-pok-rie.webp): photo by <a href="https://www.pexels.com/@pok-rie-33563/">Pok Rie</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [gallery-img8](assets/images/gallery-img8-small-pexels-andrey-che.webp): photo by <a href="">Andrey Che</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [About us-img](assets/images/about-us-img-small-dimitrisvetsikas-pixaby.webp): photo by <a href="https://pixabay.com/users/dimitrisvetsikas1969-1857980/">dimitrisvetsikas</a> on <a href="https://pixabay.com/">Pixabay</a>
+- [our-team-img1](assets/images/our-team-img1-small-bobbie-jackson-unsplash.webp): photo by <a href="https://unsplash.com/@bobbiesnaps">Bobbie Jackson
+</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [our-team-img2](assets/images/our-team-img2-mobile-gustavo-torres-unsplash.webp): photo by <a href="https://unsplash.com/@topspot">Gustavo Torres
+</a> on <a href="">Unsplash</a>
+- [our-team-img3](assets/images/our-team-img3-mobile-janilson-furtado-unsplash.webp): photo by <a href="https://unsplash.com/@janilson123">janilson furtado
+</a> on <a href="https://unsplash.com/"></a>
+- [our-team-img4](assets/images/uor-team-img4-mobile-ting-tse-wang-unsplash.webp): photo by <a href="https://unsplash.com/@kwjko">Ting Tse Wang</a> on <a href="https://unsplash.com/">Unsplash</a>
 
 ### code:
 - [looka.com](https://looka.com/) website was used to custom build logo for the project.
