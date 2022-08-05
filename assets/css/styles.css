@@ -843,7 +843,7 @@ footer p{
 }
 
 .page-404{
-    background-image: url(../images/404-img-pexels-para-bromas.webp);
+    background-image: url(../images/404-img-pexels-para-bromas-small.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--clr-header-nav-footer);
@@ -1041,6 +1041,10 @@ h3 > span{
     height: 100%;
     width: 100%;
     max-width: 100%;
+   }
+
+   .page-404{
+    background-image: url(../images/404-img-pexels-para-bromas.webp);
    }
  
 }
