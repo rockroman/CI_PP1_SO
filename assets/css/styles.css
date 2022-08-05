@@ -835,6 +835,80 @@ footer p{
     color: var(--clr-hr-background);
 }
 
+ /* page 404 style */
+ .container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-404{
+    background-image: url(../images/404-img-pexels-para-bromas.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--clr-header-nav-footer);
+    flex: 1;
+}
+
+.page-404-title{
+    width: 100%;
+    font-size: 7rem;
+    margin-bottom: 0;
+    text-align: center;
+    color:rgb(211, 19, 19);
+    font-family:"Ceviche One";
+}
+
+.page-404-subtitle{
+    font-size: 1.7rem;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    color:var(--clr-hero-txt);
+    font-style: oblique;
+   
+
+}
+
+.page-404 h2{
+    width: 100%;
+    text-align: center;
+    color: bisque;
+    font-size: 4rem;
+    font-family:"Ceviche One";
+    margin-top: 0;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-btn {
+    background-color: var(--clr-button);
+    color: var(--clr-hero-txt);
+    text-decoration: none;
+    display: block;
+    border:  2px gray;
+    margin-bottom: 2%;
+    padding: 10px;  
+    
+}
+
+#nav-checkbox:checked ~ #page404-mobile{
+    height: 85vh;
+}
+
+h3 > span{
+    font-size: 3rem;
+}
+
+.footer{
+    margin-top: auto;
+}
+
+
 /* media queries */
 @media screen and (min-width:481px) {
     .lessons-subtitle{
@@ -1150,78 +1224,6 @@ footer p{
     }
 }
 
- /* page 404 style */
-.container{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.page-404{
-    background-image: url(../images/404-img-pexels-para-bromas.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: var(--clr-header-nav-footer);
-    flex: 1;
-}
-
-.page-404-title{
-    width: 100%;
-    font-size: 7rem;
-    margin-bottom: 0;
-    text-align: center;
-    color:rgb(211, 19, 19);
-    font-family:"Ceviche One";
-}
-
-.page-404-subtitle{
-    font-size: 1.7rem;
-    margin-bottom: 0;
-    text-align: center;
-    width: 100%;
-    color:var(--clr-hero-txt);
-    font-style: oblique;
-   
-
-}
-
-.page-404 h2{
-    width: 100%;
-    text-align: center;
-    color: bisque;
-    font-size: 4rem;
-    font-family:"Ceviche One";
-    margin-top: 0;
-}
-
-.button-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.home-btn {
-    background-color: var(--clr-button);
-    color: var(--clr-hero-txt);
-    text-decoration: none;
-    display: block;
-    border:  2px gray;
-    margin-bottom: 2%;
-    padding: 10px;  
-    
-}
-
-#nav-checkbox:checked ~ #page404-mobile{
-    height: 85vh;
-}
-
-h3 > span{
-    font-size: 3rem;
-}
-
-.footer{
-    margin-top: auto;
-}
 
  
 
