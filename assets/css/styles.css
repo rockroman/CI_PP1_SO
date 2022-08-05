@@ -43,6 +43,7 @@ body{
     margin: 0 0 0 5%;
     z-index: 1200;
 }
+
 /* navigation for desktop style */
 .desktop-nav{
     justify-content: space-between;
@@ -51,6 +52,7 @@ body{
     height: 60px;
     
 }
+
 .nav-link{
     justify-content:center;
     width: 70%;
@@ -66,12 +68,14 @@ body{
     padding: 5px;
 
 }
+
 .nav-link a:hover{
   text-decoration: underline;
   transform: scale(1.2);
 
 }
 /* making a sliding navigation(original idea by'Angela Delise' */
+
 #logo{
     width: 100px;
     margin: 1% 0 0 5%;
@@ -166,6 +170,7 @@ ul a{
     display: none;
 }
 /* setting a hero img to cover entire hero section */
+
 #hero{
     background-image: url(../images/hero-img-medium-pexels-saeid-anvar.webp);
     background-size: cover;
@@ -219,6 +224,7 @@ h1{
     bottom: 19%;   
     
 }
+
 a#start-now{
     display: flex;
     justify-content: center;
@@ -273,6 +279,7 @@ hr{
     width: 90%;
     margin:5% auto;
 }
+
 /* our services section is giving insigt to user what SURF-ON is offering */
 #services{
     padding: 2% 0;
@@ -392,6 +399,7 @@ hr{
     margin-top: 40px;
 
 }
+
 /* LESSONS SECTION */
 .lessons-title{
     font-weight: 500;
@@ -562,7 +570,7 @@ a.start-now2{
 }
   
  
-  /* GALLERY SECTION */
+/* GALLERY SECTION */
 #gallery{
     display: flex;
     flex-direction: column;
@@ -630,8 +638,8 @@ h3{
     box-sizing: border-box;
    
 }
-/* our team */
 
+/* our team */
 #our-team > h3{
     font-size: 1.5rem;  
 }
@@ -1063,18 +1071,22 @@ footer p{
     h4{
         margin-bottom: 0;
     }
+
     .text-story > p{
         max-width: 640px;
         padding-top: 0;
     }
+
     #our-team{
         width: 100%;
     }
+
     .instructor{
         display: flex;
         gap: 3%;
         justify-content: center;
     }
+
     .instructor-card{
         margin-bottom: 8%;
     }
@@ -1092,21 +1104,26 @@ footer p{
     .nav-link{
         gap: 6%;
     }
+
     #hero{
         background-image: url(../images/hero-img-desktop-pexels-saeid-anvar-.webp);
         background-position-y:.1px;
         height: 82vh;
     }
+
     #start-now{
         margin-bottom: -4%;
         margin-right: 12%;
     }
+
     h1{
         font-size: 3rem;
     }
+
     h2{
         font-size: 2.9rem;
     }
+
     #contact-us{
         scroll-margin-top: -35px;
     }
@@ -1114,9 +1131,11 @@ footer p{
     #img-gallery{
         scroll-margin-top: 80px;
     }
+
     #camp{
         scroll-margin-top: 10px;
     }
+
     #lesson{
         scroll-margin-top: 70px; 
     }
@@ -1125,6 +1144,7 @@ footer p{
         width: 80%;
         font-size: 1.15rem;
     }
+
     .social-media{
         font-size: 1.75rem;
     }
@@ -1164,6 +1184,7 @@ footer p{
    
 
 }
+
 .page-404 h2{
     width: 100%;
     text-align: center;
