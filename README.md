@@ -9,7 +9,7 @@
 
 ## Table of Content
 #
-0. [Itroduction](#introduction)
+0. [Introduction](#introduction)
 1. [Project Goals](#project-goals)
     - [User Goals](#user-goals)
     - [Company Goals](#company-goals)
@@ -79,7 +79,7 @@ are use of HTML and CSS in creating a fully responsive website with minimum of 3
 - Attract more and increase the number of new clients
 - Expand the business
 - Provide expected service to all types of clients
-- Provide quick and easy to find information about buissnes to potential clients
+- Provide quick and easy to find information about buisness to potential clients
 - Ensure to have a clear distinction from competitors
 - Bring value to client and market
 
@@ -108,7 +108,7 @@ Preferred type of user who would benefit from visiting this website and vice ver
 ### User Stories
 
 ####  New(First-time) User
-0. As a New User, I want to easily to navigate the entire website intuitively.
+0. As a New User, I want to easily  navigate the entire website intuitively.
 1. As a New User,I want to know what the company offers.
 2. As a New User,I want to know the price of the services that company offers.
 3. As a New User,I want to know the best and quickest way to contact the company.
@@ -150,9 +150,9 @@ body with some vivid sharp images of sea and seaside scenery visually appealing 
 
 ### Fonts
 
-Google fonts used as follows:
+Google fonts are used as follows:
 
-- Libre Caslon Text font used for most of website.
+- Libre Caslon Text font is used for most of website.
 applied via @import method to CSS file,I picked this font cause it was specifically tailored to be used for web body text and it can be used at very small sizes and will still be readable 
 
 ![Libre Caslon Text](docs/features/fonts-Libre-Caslon.jpg)
@@ -171,7 +171,7 @@ applied via @import method to CSS file,I picked this font cause it was specifica
  3. Camps section(carousel feature with 3 different camps that company offers )
  4. Gallery section(Images capturing the moments from lessons and surfing )
  5. About us section(More information about company)
- 6. Contact us section(Information how to get in touch with company ,contact form and google map of the location.)
+ 6. Contact us section(Information on how to get in touch with company ,contact form and google map of the location.)
 
 
 ## Technologies Used
@@ -197,12 +197,12 @@ applied via @import method to CSS file,I picked this font cause it was specifica
 [Back to top &uarr;](#surf-on)
 
 ## Features
-<hr>
+<hr> company 
 
 ### Existing Features
 
 ### Favicon
-- small icon or collection of icons associated with a website, web page, or web application in this case i took a custom-made company logo
+- small icon or collection of icons associated with a website, web page, or web application in this case I took a custom-made company logo
 
 ![Favicon](assets/images/favicon-32x32.png)
  
@@ -219,7 +219,7 @@ applied via @import method to CSS file,I picked this font cause it was specifica
 - both navigations are  intuitive ,easy to use and responsive for all screen sizes
   hamburger menu for mobile and screens up to 768px and sticky nav bar for screens 768px and up.
   including links to a section of a page gives the user a well understood means to easily navigate the website
-- desktop style links are underlined and scaling in size when user hovers over them.
+- desktop style links are underlined and scale in size when user hovers over them.
 - User story covered:0,7,8
 
 ![navigation](docs/features/navigation.png)
@@ -243,7 +243,7 @@ and call to action that takes user to contact form section
 ### Carousel
 - User is further introduced to options that are  available with images of 3 locations where lessons can take place in.
 - options to navigate the carousel images are 
-via buttons in bottom part or via swipe on devices that have touch screens.
+via buttons in the bottom part or via swipe on devices that have touch screens.
 - User story covered:1,2,11
 
 ![Carousel](docs/features/carousel-section.png)
@@ -257,7 +257,7 @@ lessons and free Surfing.
 ![Gallery](docs/features/gallery-section1.png) ![Gallery](docs/features/gallery-section2.png)
 
 ### About us 
-- More information about company is followed by 
+- More information about  company  is followed by 
 4 cards with images of team members  and brief info 
 about their roles and experience.
 - User story covered:5,12,10
@@ -282,7 +282,7 @@ trademark part(name of developer and year project was developed)
 ![Footer](docs/features/footer-section.png)
 
 ### Back to top button
-- Featured on all screen sizes to assist user in having full control browsing the website content.
+- Featured on all screen sizes to assist user in having full control of browsing the website content.
 - User story covered:8,0,12
 
 ![Back to top button](docs/features/back-to-top.png)
@@ -362,7 +362,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 - Ipad 2020
  
  ### Browser Compatability 
- - Project was developed in Google Chrome browser and then tested in:
+ - Project was developed in the Google Chrome browser and then tested in:
  - Microsoft Edge
  - Mozilla Firefox
 
@@ -386,7 +386,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/user-story/user-stories-0-b.jpg">
 </details>
 
-1. As a New User,i want to know what the company offers.
+1. As a New User,I want to know what the company offers.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -404,7 +404,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/user-story/user-story-2.jpg">
 </details>
 
-2. As a New User,i want to know the price of the services that company offers. 
+2. As a New User,I want to know the price of the services that company offers. 
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -414,7 +414,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/user-story/user-story-2.jpg">
 </details>
 
-3.As a New User,i want to know the best and quickest way to contact the company. 
+3.As a New User,I want to know the best and quickest way to contact the company. 
 
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
@@ -445,7 +445,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/user-story/user-stories-5.jpg">
 </details>
 
-6. As a New User,i want to know what does it look like to use one or more of the services company offers.
+6. As a New User,I want to know what does it look like to use one or more of the services company offers.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -475,7 +475,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="docs/user-story/user-stories-0-b.jpg">
 </details>
 
-9. As a returning user,i want to find and connect with company on social media.
+9. As a returning user,I want to find and connect with company on social media.
 
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
@@ -608,34 +608,34 @@ You can clone the [CI_PP1_SO](https://rockroman.github.io/CI_PP1_SO/) repository
 ### Media
 Images:
 - [hero-img](assets/images/hero-img-medium-pexels-saeid-anvar.webp): photo by <a href="https://www.pexels.com/@indeedsaeed/">Saeid Anvar </a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Welcome-section-img](assets/images/2-surfers-welcome-img-pexels.webp): photo by <a href="https://www.pexels.com/@mantoine/">Marc Roy</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Our-lessons-img](assets/images/lessons-img-mobile-pexels.webp): photo by <a href="https://www.pexels.com/@alexa-fernando-1335156/">Alexa Fernando</a> on <a href="">Pexels</a>
-- [Irish-camp-img](assets/images/camp-irish_camp-img-pexels.webp): photo by <a href="Magda Ehlers"></a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Rental-img](assets/images/rental-img-small-unsplash.webp): photo by <a href="Nareeta Martin
+- [welcome-section-img](assets/images/2-surfers-welcome-img-pexels.webp): photo by <a href="https://www.pexels.com/@mantoine/">Marc Roy</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [our-lessons-img](assets/images/lessons-img-mobile-pexels.webp): photo by <a href="https://www.pexels.com/@alexa-fernando-1335156/">Alexa Fernando</a> on <a href="">Pexels</a>
+- [irish-camp-img](assets/images/camp-irish_camp-img-pexels.webp): photo by <a href="Magda Ehlers"></a> on <a href="https://www.pexels.com/">Pexels</a>
+- [rental-img](assets/images/rental-img-small-unsplash.webp): photo by <a href="Nareeta Martin
 "></a> on <a href="https://unsplash.com/">Unsplash</a>
-- [Carousel-img1](assets/images/carousel-img1-small-pexels-cemal-taskiran.webp): photo by <a href="https://www.pexels.com/@cemal-taskiran-420171/">Cemal Taskiran</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Carousel-img2](assets/images/carousel-img2-small-pexels-wendy-wei.webp): photo by <a href="https://www.pexels.com/@wendywei/">Wendy Wei</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [Carousel-img3](assets/images/carousel-img3-small-pexels-nikita-igonkin.webp): photo by <a href="https://www.pexels.com/@igonkin/">Nikita Igonkin</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [carousel-img1](assets/images/carousel-img1-small-pexels-cemal-taskiran.webp): photo by <a href="https://www.pexels.com/@cemal-taskiran-420171/">Cemal Taskiran</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [carousel-img2](assets/images/carousel-img2-small-pexels-wendy-wei.webp): photo by <a href="https://www.pexels.com/@wendywei/">Wendy Wei</a> on <a href="https://www.pexels.com/">Pexels</a>
+- [carousel-img3](assets/images/carousel-img3-small-pexels-nikita-igonkin.webp): photo by <a href="https://www.pexels.com/@igonkin/">Nikita Igonkin</a> on <a href="https://www.pexels.com/">Pexels</a>
 - [gallery-img1](assets/images/gallery-img1-small-ting-tse-wang-unsplash.webp): photo by <a href="https://unsplash.com/@kwjko">Ting Tse Wang
-</a> on <a href="https://unsplash.com/">Unsplash</a>
+   </a> on <a href="https://unsplash.com/">Unsplash</a>
 - [gallery-img2](assets/images/gallery-img2-small-andrew-davie-unsplash.webp): photo by <a href="https://unsplash.com/@dendydarma">Dendy Darma Satyazi
-</a> on <a href="https://unsplash.com/">Unsplash</a>
+  </a> on <a href="https://unsplash.com/">Unsplash</a>
 - [gallery-img3](assets/images/gallery-img3-small-sara-garnica-unsplash.webp): photo by <a href="https://unsplash.com/@saragarnicar">Sara Garnica
-</a> on <a href="https://unsplash.com/">Unsplash</a>
+  </a> on <a href="https://unsplash.com/">Unsplash</a>
 - [gallery-img4](assets/images/gallesry-img-4-small-guy-kawasaki-unsplash.webp): photo by <a href="https://unsplash.com/@guykawasaki">Guy Kawasaki
-</a> on <a href="https://unsplash.com/">Unsplash</a>
+  </a> on <a href="https://unsplash.com/">Unsplash</a>
 - [gallery-img5](assets/images/gallery-img5-small-matthew-hume-unsplash.webp): photo by <a href="https://unsplash.com/@matthewhume">Matthew Hume
-</a> on <a href="https://unsplash.com/">Unsplash</a>
+  </a> on <a href="https://unsplash.com/">Unsplash</a>
 - [gallery-img6](assets/images/gallery-img6-small-pexels-guy-kawasaki.webp): photo by <a href="https://unsplash.com/@guykawasaki">Guy Kawasaki</a> on <a href="">Unsplash</a>
 - [gallery-img7](assets/images/gallery-img7-small-pexels-pok-rie.webp): photo by <a href="https://www.pexels.com/@pok-rie-33563/">Pok Rie</a> on <a href="https://www.pexels.com/">Pexels</a>
 - [gallery-img8](assets/images/gallery-img8-small-pexels-andrey-che.webp): photo by <a href="">Andrey Che</a> on <a href="https://www.pexels.com/">Pexels</a>
-- [About us-img](assets/images/about-us-img-small-dimitrisvetsikas-pixaby.webp): photo by <a href="https://pixabay.com/users/dimitrisvetsikas1969-1857980/">dimitrisvetsikas</a> on <a href="https://pixabay.com/">Pixabay</a>
+- [about us-img](assets/images/about-us-img-small-dimitrisvetsikas-pixaby.webp): photo by <a href="https://pixabay.com/users/dimitrisvetsikas1969-1857980/">dimitrisvetsikas</a> on <a href="https://pixabay.com/">Pixabay</a>
 - [our-team-img1](assets/images/our-team-img1-small-bobbie-jackson-unsplash.webp): photo by <a href="https://unsplash.com/@bobbiesnaps">Bobbie Jackson
-</a> on <a href="https://unsplash.com/">Unsplash</a>
+  </a> on <a href="https://unsplash.com/">Unsplash</a>
 - [our-team-img2](assets/images/our-team-img2-mobile-gustavo-torres-unsplash.webp): photo by <a href="https://unsplash.com/@topspot">Gustavo Torres
-</a> on <a href="">Unsplash</a>
+  </a> on <a href="">Unsplash</a>
 - [our-team-img3](assets/images/our-team-img3-mobile-janilson-furtado-unsplash.webp): photo by <a href="https://unsplash.com/@janilson123">janilson furtado
-</a> on <a href="https://unsplash.com/"></a>
+  </a> on <a href="https://unsplash.com/"></a>
 - [our-team-img4](assets/images/uor-team-img4-mobile-ting-tse-wang-unsplash.webp): photo by <a href="https://unsplash.com/@kwjko">Ting Tse Wang</a> on <a href="https://unsplash.com/">Unsplash</a>
 
 ### code:
@@ -650,7 +650,7 @@ Images:
 ***
 I would like to take a few moments to say Thank you to following people:
 - First i would like to thank my wife Una and my daughter Tara for continuous support and understanding
-while working on development of this project.
+  while working on development of this project.
 - Then i would like to thank my Mentor Mo.Shami for his support ,insight expertise and guidance.
 - Then i would like to thank Mike Murtagh who supported and encouraged my enrollment into this programm.
 - Simen Daehlin for taking time to give some excellent feedback.
